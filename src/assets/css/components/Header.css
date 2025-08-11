@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --primary-color: #0F1524;
+    --secondary-color: #2B3550;
+    --tertiary-color: #1C243A;
+    --quaternary-color: #000000;
+    --quinary-color: #FFFFFF;
+}
+
+.cba-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--quaternary-color);
+    padding: 1rem 1.2rem;
+    color: #ffffff;
+    font-size: 15rem;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* nav logo */
+    .cba-hc-brand-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        /* nav logo image */
+        img {
+            width: 3rem;
+            height: 3rem;
+            padding: 10px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        /* nav logo text */
+        h1 {
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    }
+    /* notify and wallet icon */
+    .cba-hc-notify-wallet {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        /* notify icon */
+        .cba-hc-notify {
+            cursor: pointer;
+            /* notify icon image */
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+        /* wallet icon */
+        .cba-hc-wallet {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            cursor: pointer;
+            /* wallet icon image */
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+            /* wallet amount */
+            h4 {
+                font-size: 1.2rem;
+                font-weight: 600;
+                /* wallet amount currency */
+                span {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    margin-left: 0.3rem;
+                }
+            }
+        }
+    }
+}
