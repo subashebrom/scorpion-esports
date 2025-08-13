@@ -25,10 +25,10 @@ import ADlw2 from "../pages/ADlw2";
 import ADfree2 from "../pages/ADfree2";
 import ADcc2 from "../pages/ADcc2";
 import Deposit from "../pages/Deposit";
-import Withdraw from "../pages/withdraw";
 import DBI from "../pages/DBI";
 import MyProfile from "../pages/MyProfile";
 import TopPlayer from "../pages/TopPlayer";
+import Withdraw from "../pages/withdraw";
 
 const MainRoutes = createBrowserRouter([
     {

@@ -1,9 +1,11 @@
-import React from 'react';
+import {} from "../css/game.css"
 
 const Game = () => {
     return (
-        <div className="game-container">
-            
+        <div className="game-section">
+            <div className="shgp-container">
+                sh
+            </div>
         </div>
     );
 };

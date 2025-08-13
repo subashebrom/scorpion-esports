@@ -1,0 +1,9 @@
+.game-section{
+    width: 100%;
+    background-color: red;
+    justify-items: center;
+}
+.game-section .shgp-container{
+    width: 95%;
+    background-color: green;
+}
