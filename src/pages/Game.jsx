@@ -5,6 +5,7 @@ const Game = () => {
         <div className="game-section">
             <div className="shgp-container">
                 sh
+                fdfdfd
             </div>
         </div>
     );
