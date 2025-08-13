@@ -28,7 +28,7 @@ import Deposit from "../pages/Deposit";
 import DBI from "../pages/DBI";
 import MyProfile from "../pages/MyProfile";
 import TopPlayer from "../pages/TopPlayer";
-import Withdraw from "../pages/withdraw";
+import WithdrawRequest from "../pages/WithdrawRequest";
 
 const MainRoutes = createBrowserRouter([
     {
@@ -136,8 +136,8 @@ const MainRoutes = createBrowserRouter([
                 element:<Deposit/>
             },
             {
-                path:'/withdraw',
-                element:<Withdraw/>
+                path:'/withdraw-request',
+                element:<WithdrawRequest/>
             },
             {
                 path:'/deposit-byincome',

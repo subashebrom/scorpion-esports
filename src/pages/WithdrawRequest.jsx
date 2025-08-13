@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Withdraw = () => {
+const WithdrawRequest = () => {
     return (
         <div>
             this is a withdraw page
@@ -8,4 +8,4 @@ const Withdraw = () => {
     );
 };
 
-export default Withdraw;
+export default WithdrawRequest;
