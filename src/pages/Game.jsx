@@ -1,13 +1,12 @@
-import {} from "../css/game.css"
+import {} from "../assets/css/pages/game.css"
 
 const Game = () => {
     return (
-        <div className="game-section">
-            <div className="shgp-container">
-                sh
-                fdfdfd
+        <>
+            <div className="cba-game-page-container">
+
             </div>
-        </div>
+        </>
     );
 };
 
