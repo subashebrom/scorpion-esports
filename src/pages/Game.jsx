@@ -1,4 +1,4 @@
-/* import {} from "../css/game.css" */
+import '../assets/css/pages/game.css'
 
 const Game = () => {
     return (
@@ -6,11 +6,13 @@ const Game = () => {
             <div className="cba-game-page-container">
                 <div className="cba-gpc-content">
                     <div className="cba-gpc-heading">
-                        <h2>
-                            <i class='bx  bxs-fire-alt'  ></i>
-                            OFFER NOTICE BOARD
-                            <i class='bx  bxs-fire-alt'  ></i>
-                        </h2>
+                        <div className="cba-gpc-hbox">
+                            <h2>
+                                <i class='bx  bxs-fire-alt'  ></i>
+                                OFFER NOTICE BOARD
+                                <i class='bx  bxs-fire-alt'  ></i>
+                            </h2>
+                        </div>
                     </div>
                     <div className="cba-gpc-carousel">
                         <div className="cba-gpc-carousel-slider">
