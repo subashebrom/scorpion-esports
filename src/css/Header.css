@@ -1,0 +1,37 @@
+
+
+:root {
+    --primary-color: #0F1524;
+    --secondary-color: #2B3550;
+    --tertiary-color: #1C243A;
+    --quaternary-color: #000000;
+    --quinary-color: #FFFFFF;
+    --deeper-green: #155C6E;
+}
+/* === SH HEADER MAIN SECTION === */
+.sh-header-main-section{
+    min-width: 320px;
+    max-width: 768px;
+    justify-items: center;
+    background-color: var(--quaternary-color);
+}
+/* === SH HEADER CONTAINER === */
+.sh-header-container{
+    width: 95%;
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--quinary-color);
+    background-color: var(--quaternary-color);
+}
+/* === WALLET SECTION === */
+.sh-header-right-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+span{
+    padding-right: 0.25rem;
+}

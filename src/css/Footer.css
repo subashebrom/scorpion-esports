@@ -21,9 +21,8 @@ html {
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-color);
-    padding: 0.8rem 0.8rem;
     color: #ffffff;
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;

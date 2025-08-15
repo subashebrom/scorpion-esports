@@ -1,33 +1,27 @@
-import React from 'react';
-import "../assets/css/components/Header.css"
+
+import "../css/Header.css"
+import { NavLink } from 'react-router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGamepad, faWallet } from '@fortawesome/free-solid-svg-icons';
+import { faBell } from '@fortawesome/free-regular-svg-icons';
 
 const Header = () => {
     return (
-        <>
-            <div className="cba-header-container">
-                <div className="cba-hc-brand-logo">
-                    {/* nav logo */}
-                    <img src="/public/images/brand-logo.png" alt="brand logo" />
-                    {/* nav logo text */}
-                    <h1>Scorpion E-sports</h1>
+        <div className='sh-header-main-section'>
+            <div className="sh-header-container">
+                <div className="sh-header-logo">
+                    <NavLink to=''> <span> <FontAwesomeIcon icon={faGamepad}/> SCORPION E-SPORTS</span></NavLink>
                 </div>
-                {/* notify and wallet icons */}
-                <div className="cba-hc-notify-wallet">
-                    {/* notify icon */}
-                    <div className="cba-hc-notify">
-                        <img src="../../public/images/notify-icon.png" alt="notify icon" />
-                    </div>
-                    {/* wallet icon */}
-                    <div className="cba-hc-wallet">
-                        <img src="../../public/images/wallet-icon.png" alt="wallet icon" />
-                        <h4>
-                            0.00
-                            <span>TK</span>
-                        </h4>
+                {/* === Wallet Section === */}
+                <div className="sh-header-right-items">
+                    <NavLink to=''> <FontAwesomeIcon icon={faBell}/> </NavLink>
+                    <div>
+                        <NavLink to=''> <span><FontAwesomeIcon icon={faWallet} /></span><b>0.00 TK</b> </NavLink>
                     </div>
                 </div>
+
             </div>
-        </>
+        </div>
     );
 };
 

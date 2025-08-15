@@ -1,4 +1,4 @@
-import {} from "../css/game.css"
+/* import {} from "../css/game.css" */
 
 const Game = () => {
     return (

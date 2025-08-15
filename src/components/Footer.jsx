@@ -1,10 +1,10 @@
 import React from 'react';
-import "../assets/css/components/Footer.css"
+/* import "../css/Footer.css" */
 
 const Footer = () => {
     return (
         <>
-            <div className="cba-footer-container">
+            {/* <div className="cba-footer-container">
                 <div className="cba-fc-menu-con">
                     <div className="cba-fc-mc-menu-box">
                         <span></span>
@@ -39,6 +39,9 @@ const Footer = () => {
                         <span></span>
                     </div>
                 </div>
+            </div> */}
+            <div>
+                footer here
             </div>
         </>
     );
