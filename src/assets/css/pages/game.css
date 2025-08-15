@@ -30,18 +30,15 @@
     align-items: center;
     padding: 0 3px 3px 0;
     background-color: #1C243A;
-    clip-path: polygon(5% 0, 100% 0, 100% 65%, 95% 100%, 0 100%, 0 45%);
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
     margin: 1.5rem 0rem;
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading .cba-gpc-hbox {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #0F1524;
-    clip-path: polygon(5% 0, 100% 0, 100% 65%, 95% 100%, 0 100%, 0 45%);
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
     padding: 0 2px 2px 0;
 }
 
@@ -56,11 +53,46 @@
     background-color: #2B3550;
     color: #FFFFFF;
     font-size: 1.5rem;
-    font-weight: 600;
-    clip-path: polygon(5% 0, 100% 0, 100% 65%, 95% 100%, 0 100%, 0 45%);
+    font-weight: medium;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading .cba-gpc-hbox h2 i {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #F89827;
+}
+
+/* Game Page Carousel */
+.cba-game-page-container .cba-gpc-content .cba-gpc-carousel {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-carousel .cba-gpc-carousel-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: carouselSlider 12s linear infinite;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-carousel .cba-gpc-carousel-slider img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@keyframes carouselSlider {
+    0%   { transform: translateX(0%); }
+    20%  { transform: translateX(0%); }
+
+    25%  { transform: translateX(-100%); }
+    45%  { transform: translateX(-100%); }
+
+    50%  { transform: translateX(-200%); }
+    70%  { transform: translateX(-200%); }
+
+    75%  { transform: translateX(-300%); }
+    95%  { transform: translateX(-300%); }
+
+    100% { transform: translateX(0%); }
 }
