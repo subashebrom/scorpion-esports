@@ -17,7 +17,7 @@
 
 /* Game Page Content */
 .cba-game-page-container .cba-gpc-content {
-    width: 90%;
+    width: 92.5%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -198,11 +198,345 @@
             font-weight: 600;
         }
         p {
-            color: #FFFFFF;
-            font-size: 1rem;
-            font-weight: 500;
+            color: #656E7F;
+            font-size: 0.8rem;
+            font-weight: 600;
         }
     }
 }
 
 /* -------------------------------------------------------- */
+
+/* Special Match */
+
+/* game page special match heading */
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px 3px 0;
+    background-color: #1C243A;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    margin: 1rem 0rem 2rem;
+    cursor: pointer;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-heading .cba-gpc-sm-hbox {
+    width: 100%;
+    height: 100%;
+    background-color: #0F1524;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    padding: 0 2px 2px 0;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-heading .cba-gpc-sm-hbox h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem 0.6rem;
+    background-color: #2B3550;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: medium;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-heading .cba-gpc-sm-hbox h2 i {
+    font-size: 1.8rem;
+    color: #F89827;
+}
+
+/* game page special match content matches */
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin: 2rem 0rem 2.25rem;
+    display: none;
+    &.sm-active {
+        display: grid;
+    }
+}
+
+/* game page special match content matches box */
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-matches .cba-gpc-smm-match-box {
+    background-color: #2B3550;
+    width: 100%;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+/* game page special match content matches box image */
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-matches .cba-gpc-smm-match-box .cba-gpc-smm-mb-img {
+    width: 100%;
+    height: fit-content;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.313rem;
+    }
+}
+
+/* game page special match content matches box data */
+.cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-matches .cba-gpc-smm-match-box .cba-gpc-smm-mb-data {
+    background-color: #0F1524;
+    padding: 0 2px 2px 0;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+    /* inner box */
+    .cba-gpc-smm-mbd-inner {
+        background-color: #1C243A;
+        clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+        padding: 0.313rem 0.625rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* inner box data design */
+        .cba-gpc-smm-mbd-i-text {
+            h3 {
+                color: #FFFFFF;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+            p {
+                color: #656E7F;
+                font-size: 0.8rem;
+                font-weight: 600;
+            }
+        }
+        /* inner box data icon */
+        .cba-gpc-smm-mbd-i-icon {
+            i {
+                font-size: 1.5rem;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+/* -------------------------------------------------------- */
+
+/* One day after match */
+
+/* Game Page One day after Match heading */
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px 3px 0;
+    background-color: #1C243A;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    margin: 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-heading .cba-gpc-odam-hbox {
+    width: 100%;
+    height: 100%;
+    background-color: #0F1524;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    padding: 0 2px 2px 0;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-heading .cba-gpc-odam-hbox h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem 0.6rem;
+    background-color: #2B3550;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: medium;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-heading .cba-gpc-odam-hbox h2 i {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+/* game page one day after match content matches */
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin: 2rem 0rem;
+    display: none;
+    &.oda-active {
+        display: grid;
+    }
+}
+
+/* game page one day after match content matches box */
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-matches .cba-gpc-odamm-match-box {
+    background-color: #2B3550;
+    width: 100%;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+/* game page one day after match content matches box image */
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-matches .cba-gpc-odamm-match-box .cba-gpc-odamm-mb-img {
+    width: 100%;
+    height: fit-content;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.313rem;
+    }
+}
+
+/* game page one day after match content matches box data */
+.cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-matches .cba-gpc-odamm-match-box .cba-gpc-odamm-mb-data {
+    background-color: #0F1524;
+    padding: 0 2px 2px 0;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+    /* inner box */
+    .cba-gpc-odamm-mbd-inner {
+        background-color: #1C243A;
+        clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+        padding: 0.313rem 0.625rem;
+        display: flex;
+        flex-direction: column;
+        /* inner box data design */
+        h3 {
+            color: #FFFFFF;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        p {
+            color: #656E7F;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    }
+}
+
+/* ------------------------------------------------------------ */
+
+/* Two day after match */
+
+/* Game Page two day after Match heading */
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px 3px 0;
+    background-color: #1C243A;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    margin: 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-heading .cba-gpc-tdam-hbox {
+    width: 100%;
+    height: 100%;
+    background-color: #0F1524;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    padding: 0 2px 2px 0;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-heading .cba-gpc-tdam-hbox h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem 0.6rem;
+    background-color: #2B3550;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: medium;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-heading .cba-gpc-tdam-hbox h2 i {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+/* game page two day after match content matches */
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin: 2rem 0rem;
+    display: none;
+    &.tda-active {
+        display: grid;
+    }
+}
+
+/* game page two day after match content matches box */
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-matches .cba-gpc-tdamm-match-box {
+    background-color: #2B3550;
+    width: 100%;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+/* game page two day after match content matches box image */
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-matches .cba-gpc-tdamm-match-box .cba-gpc-tdamm-mb-img {
+    width: 100%;
+    height: fit-content;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.313rem;
+    }
+}
+
+/* game page two day after match content matches box data */
+.cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-matches .cba-gpc-tdamm-match-box .cba-gpc-tdamm-mb-data {
+    background-color: #0F1524;
+    padding: 0 2px 2px 0;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+    /* inner box */
+    .cba-gpc-tdamm-mbd-inner {
+        background-color: #1C243A;
+        clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+        padding: 0.313rem 0.625rem;
+        display: flex;
+        flex-direction: column;
+        /* inner box data design */
+        h3 {
+            color: #FFFFFF;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        p {
+            color: #656E7F;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    }
+}
+
+/* ------------------------------------------------------------ */
