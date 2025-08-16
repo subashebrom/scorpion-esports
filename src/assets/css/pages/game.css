@@ -23,6 +23,8 @@
     flex-direction: column;
 }
 
+/* -------------------------------------------------------- */
+
 /* Game Page Heading */
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading {
     display: flex;
@@ -31,7 +33,7 @@
     padding: 0 3px 3px 0;
     background-color: #1C243A;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
-    margin: 1.5rem 0rem;
+    margin: 2rem 0rem;
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading .cba-gpc-hbox {
@@ -62,10 +64,12 @@
     color: #F89827;
 }
 
+/* -------------------------------------------------------- */
+
 /* Game Page Carousel */
 .cba-game-page-container .cba-gpc-content .cba-gpc-carousel {
     width: 100%;
-    height: 400px;
+    height: fit-content;
     overflow: hidden;
 }
 
@@ -96,3 +100,109 @@
 
     100% { transform: translateX(0%); }
 }
+
+
+/* -------------------------------------------------------- */
+
+/* Todays Match */
+
+/* Game Page Todays Match heading */
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px 3px 0;
+    background-color: #1C243A;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    margin: 2rem 0rem;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-heading .cba-gpc-tm-hbox {
+    width: 100%;
+    height: 100%;
+    background-color: #0F1524;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    padding: 0 2px 2px 0;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-heading .cba-gpc-tm-hbox h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem 0.6rem;
+    background-color: #2B3550;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: medium;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-heading .cba-gpc-tm-hbox h2 i {
+    font-size: 1.8rem;
+    color: #F89827;
+}
+
+/* game page todays match content matches */
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin: 2rem 0rem;
+}
+
+/* game page todays match content matches box */
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-matches .cba-gpc-tmm-match-box {
+    background-color: #2B3550;
+    width: 100%;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+/* game page todays match content matches box image */
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-matches .cba-gpc-tmm-match-box .cba-gpc-tmm-mb-img {
+    width: 100%;
+    height: fit-content;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.313rem;
+    }
+}
+
+/* game page todays match content matches box data */
+.cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-matches .cba-gpc-tmm-match-box .cba-gpc-tmm-mb-data {
+    background-color: #0F1524;
+    padding: 0 2px 2px 0;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+    /* inner box */
+    .cba-gpc-tmm-mbd-inner {
+        background-color: #1C243A;
+        clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+        padding: 0.313rem 0.625rem;
+        display: flex;
+        flex-direction: column;
+        /* inner box data design */
+        h3 {
+            color: #FFFFFF;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        p {
+            color: #FFFFFF;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+/* -------------------------------------------------------- */
