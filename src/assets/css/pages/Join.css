@@ -10,11 +10,11 @@
   --quaternary-color: #000000;
   --quinary-color: #ffffff;
   --deeper-blue: #155c6e;
-  --deeper-green: #216E15;
-  --deeper-red: #8E1E0D;
-  --text-dark: #AAB2B7;
-  --detail-border: #0F1524;
-  --type-color: #212B47;
+  --deeper-green: #216e15;
+  --deeper-red: #8e1e0d;
+  --text-dark: #aab2b7;
+  --detail-border: #0f1524;
+  --type-color: #212b47;
 }
 /* ==== MAIN SECTION === */
 .sh-join-main-section {
@@ -70,40 +70,161 @@
   font-weight: 500;
 }
 /* === Joining Section === */
-.sh-joining-section{
-    margin-top: 1rem;
-    padding: 0.3125rem;
-    background-color: var(--secondary-color);
+.sh-joining-section {
+  margin-top: 1rem;
+  padding: 0.3125rem;
+  background-color: var(--secondary-color);
 }
-.sh-join-box1{
-    color: var(--quinary-color);
-    background-color: var(--primary-color);
-    padding: 0rem 0rem 0.25rem 0rem;
-    clip-path: polygon(0 0, 95% 0, 100% 15%, 100% 100%, 5% 100%, 0 90%);
+.sh-join-box1 {
+  color: var(--quinary-color);
+  background-color: var(--primary-color);
+  padding: 0rem 0rem 0.25rem 0rem;
+  clip-path: polygon(0 0, 95% 0, 100% 15%, 100% 100%, 5% 100%, 0 90%);
 }
-.sh-join-box2{
-    padding: 0.3125rem;
-    background-color: var(--tertiary-color);
-    clip-path: polygon(0 0, 95% 0, 100% 15%, 100% 100%, 5% 100%, 0 90%);
+.sh-join-box2 {
+  padding: 0.3125rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(0 0, 95% 0, 100% 15%, 100% 100%, 5% 100%, 0 90%);
 }
-.sh-join-box2 h1{
-    font-size: 1.25rem;
+.sh-join-box2 h1 {
+  font-size: 1.25rem;
 }
-.sh-join-date{
-    font-size: 1rem;
-    margin-top: 0.3125rem;
+.sh-join-date {
+  font-size: 0.875rem;
+  margin-top: 0.3125rem;
 }
-.sh-join-prize{
-    margin-top: 0.3125rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.sh-join-prize {
+  margin-top: 0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.sh-join-prize p{
-    font-size: 1.25rem;
+.sh-join-prize p {
+  font-size: 1rem;
 }
-.join-notice{
-    text-align: center;
-    margin-top: 0.5rem;
-    color: #27C00F;
+.join-notice {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #27c00f;
+}
+/* === Joining button === */
+.sh-join-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  margin-top: 0.5rem;
+  justify-items: center;
+}
+.sh-joining{
+  width: 20%;
+}
+.sh-join-btn-box1{
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(5% 1%, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-join-btn-box2{
+  padding: 0rem 0rem 0.0625rem 0rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(5% 1%, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-join-btn-box3{
+  background-color: var(--primary-color);
+  padding: 0rem 0rem 0.125rem 0rem;
+  clip-path: polygon(5% 1%, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+/* === Name Input === */
+.sh-join-player-name{
+  width: 100%;
+  position: relative;
+  margin-top: 0.5rem;
+}
+.sh-jion-pn-box1{
+  width: 100%;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 70%, 97% 100%, 0 100%, 0 0);
+}
+.sh-jion-pn-box1 input{
+  width: 100%;
+  outline: none;
+  font-size: 1.125rem;
+  color: var(--quinary-color);
+  padding: 0.1875rem 0.3125rem;
+}
+.sh-jion-pn-box2{
+  width: 100%;
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--primary-color);
+  clip-path: polygon(100% 0, 100% 72%, 97% 100%, 0 100%, 0 0);
+}
+.sh-join-btm-triangle{
+  width: 26px;
+  height: 8px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: var(--primary-color);
+  clip-path: polygon(100% 3%, 70% 99%, 100% 100%);
+}
+/* === Play to Join Now Button === */
+.sh-play-join-btn1{
+  font-size: 1.25rem;
+  color: var(--quinary-color);
+  text-align: center;
+  background-color: var(--deeper-green);
+  clip-path: polygon(3% 0, 100% 0, 100% 60%, 97% 100%, 0 100%, 0 40%);
+}
+.sh-play-join-btn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 62%, 97% 100%, 0 100%, 0 40%);
+}
+.sh-play-join-btn3{
+  margin-top: 1rem;
+  padding: 0rem 0rem 0.1875rem 0rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 64%, 97% 100%, 0 100%, 0 40%);
+}
+.sh-join-team-spot{
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.sh-join-team-spot-num1{
+  width: 40%;
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--deeper-green);
+  clip-path: polygon(100% 0, 100% 67%, 90% 100%, 0 100%, 0 0);
+}
+.sh-join-team-spot-num2{
+  padding-left: 0.3125rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 65%, 90% 100%, 0 100%, 0 0);
+}
+.sh-join-team-spot-num2{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+.sh-join-team-spot-name1{
+  width: 100%;
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--deeper-green);
+  clip-path: polygon(100% 0, 100% 65%, 95% 100%, 0 100%, 0 0);
+}
+.sh-join-team-spot-name2{
+  padding-left: 0.3125rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 61%, 95% 100%, 0 100%, 0 0);
+}
+.sh-join-team-spot-name2 input{
+  width: 100%;
+  outline: none;
+  font-size: 1.125rem;
+  color: var(--text-dark);
 }
