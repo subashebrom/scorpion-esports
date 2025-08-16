@@ -226,6 +226,7 @@ clip-path: polygon(100% 0, 100% 65%, 92% 100%, 0 100%, 0 0);
 }
 .sh-joning-box{
   font-size: 1.25rem;
+  padding: 0.25rem;
   color: var(--quinary-color);
   background-color: var(--deeper-green);
   clip-path: polygon(8% 0, 100% 0%, 100% 72%, 92% 100%, 0 100%, 0 30%);
@@ -241,7 +242,7 @@ clip-path: polygon(100% 0, 100% 65%, 92% 100%, 0 100%, 0 0);
 .sh-brm-details-box{
   font-size: 1rem;
   color: var(--quinary-color);
-    padding: 0.25rem;
+  padding: 0.25rem;
   background-color: var(--tertiary-color);
   clip-path: polygon(8% 0, 100% 0%, 100% 72%, 92% 100%, 0 100%, 0 30%);
 }

@@ -29,6 +29,8 @@ import DBI from "../pages/DBI";
 import MyProfile from "../pages/MyProfile";
 import TopPlayer from "../pages/TopPlayer";
 import WithdrawRequest from "../pages/WithdrawRequest";
+import MatchDetails from "../pages/MatchDetails";
+import Join from "../pages/Join";
 
 const MainRoutes = createBrowserRouter([
     {
@@ -150,6 +152,14 @@ const MainRoutes = createBrowserRouter([
             {
                 path:'/top-players',
                 element:<TopPlayer/>
+            },
+            {
+                path:'/match-details',
+                element:<MatchDetails/>
+            },
+            {
+                path:'/match-join',
+                element:<Join/>
             },
         ]
     }
