@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 67.5%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+:root {
+    --primary-color: #0F1524;
+    --secondary-color: #2B3550;
+    --tertiary-color: #1C243A;
+    --quaternary-color: #000000;
+    --quinary-color: #FFFFFF;
+    --deeper-green: #155C6E;
+}
+
+/* -------------------------------------------------------- */
+
+/* footer container */
+.cba-footer-container {
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 1rem 1rem;
+}
+
+/* footer content */
+.cba-footer-container  .cba-footer-content {
+    width: 100%;
+}
+
+/* footer menu box */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+/* footer menu box content */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con {
+    background-color: var(--tertiary-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem 0rem;
+    cursor: pointer;
+    clip-path: polygon(15% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0% 40%);
+    /* position: relative; */
+}
+
+/* footer menu box content spans */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con span:nth-child(1) {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--deeper-green);
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    clip-path: polygon(0 0, 0 26%, 28% 0);
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con span:nth-child(3) {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--deeper-green);
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    clip-path: polygon(100% 70%, 62% 100%, 100% 100%);
+    z-index: 1;
+}
+
+/* footer menu box content menu */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con .cba-fmb-menu {
+    display: flex;
+    gap: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--quinary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* icon */
+    i {
+        font-size: 2rem;
+        color: var(--quinary-color);
+    }
+    /* text */
+    h3 {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--quinary-color);
+        margin: 0;
+    }
+}
+
+/* 2nd and 3rd icon extra design */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(2) .cba-fmb-menu {
+    i {
+        font-size: 2.3rem;
+        margin-bottom: -0.188rem;
+    }
+}
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(3) .cba-fmb-menu {
+    i {
+        font-size: 2.3rem;
+        margin-bottom: -0.188rem;
+    }
+}
