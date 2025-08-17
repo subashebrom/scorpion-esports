@@ -103,7 +103,7 @@ const MatchDetails = () => {
                     <div className="sh-smd-rules2">
                         <div className="sh-smd-rules1">
                             <span> <FontAwesomeIcon icon={faScaleBalanced} /></span>
-                            <h1>MATCH INSTRUCTION & RULES</h1>
+                            <h1>Full Map Rule's</h1>
                             <span> <FontAwesomeIcon icon={faScaleBalanced} /> </span>
                         </div>
                     </div>

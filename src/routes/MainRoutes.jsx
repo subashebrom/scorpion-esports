@@ -32,6 +32,7 @@ import WithdrawRequest from "../pages/WithdrawRequest";
 import MatchDetails from "../pages/MatchDetails";
 import Join from "../pages/Join";
 import MatchResults from "../pages/MatchResults";
+import Rules from "../pages/Rules";
 
 const MainRoutes = createBrowserRouter([
     {
@@ -165,6 +166,10 @@ const MainRoutes = createBrowserRouter([
             {
                 path:'/match-results',
                 element:<MatchResults/>
+            },
+            {
+                path:'/app-rules',
+                element:<Rules/>
             },
         ]
     }

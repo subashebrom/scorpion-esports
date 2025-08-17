@@ -69,6 +69,59 @@
   font-size: 1.25rem;
   font-weight: 500;
 }
+/* === Results Category Buttons === */
+.sh-result-category-btn-section{
+  margin-top: 1rem;
+  display: grid;
+  padding: 0.5rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--secondary-color);
+  clip-path: polygon(2% 0, 100% 0, 100% 90%, 98% 100%, 0 100%, 0 10%);
+}
+.sh-category-btns{
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-result-btn{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--primary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 81%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-hvr-btn{
+  position: relative;
+}
+.sh-hvr-btn:hover{
+  .sh-result-hvr-btnt, .sh-result-hvr-btnb{
+    visibility: visible;
+  }
+}
+.sh-result-hvr-btnt{
+  width: 17px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: var(--deeper-blue);
+  clip-path: polygon(0 0, 0% 100%, 30% 0);
+}
+.sh-result-hvr-btnb{
+  width: 15px;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  background-color: var(--deeper-blue);
+  clip-path: polygon(100% 0, 65% 100%, 100% 100%);
+}
+/* === Results matches cards === */
 
 .sh-result-matches-cards-section{
     display: grid;

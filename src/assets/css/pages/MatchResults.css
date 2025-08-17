@@ -34,8 +34,6 @@
   width: 100%;
   height: 2.25rem;
   font-size: 0.75rem;
-  align-items: center;
-  justify-content: center;
   background-color: var(--secondary-color);
   color: var(--quinary-color);
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
@@ -46,7 +44,6 @@
   width: 100%;
   height: 2.25rem;
   font-size: 0.75rem;
-  align-items: center;
   justify-content: center;
   background-color: var(--primary-color);
   color: var(--quinary-color);
@@ -59,7 +56,6 @@
   width: 100%;
   height: 2.25rem;
   font-size: 0.75rem;
-  align-items: center;
   justify-content: center;
   background-color: var(--secondary-color);
   color: var(--quinary-color);
@@ -72,7 +68,6 @@
   width: 100%;
   height: 2.25rem;
   font-size: 0.75rem;
-  align-items: center;
   justify-content: center;
   background-color: var(--secondary-color);
   color: var(--quinary-color);
@@ -90,7 +85,6 @@
   width: 100%;
   height: 2.25rem;
   font-size: 0.75rem;
-  align-items: center;
   justify-content: center;
   background-color: var(--secondary-color);
   color: var(--quinary-color);
@@ -175,7 +169,6 @@
   width: 100%;
   height: 2.25rem;
   font-size: 0.75rem;
-  align-items: center;
   justify-content: center;
   background-color: var(--deeper-green);
   color: var(--quinary-color);
@@ -213,7 +206,7 @@
 .sh-smr-participants-name{
   text-align: center;
   display: grid;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   grid-row-gap: 0.3125rem;
 /*   grid-column-gap: 5px; */
   justify-content: space-between;
@@ -347,9 +340,148 @@
 
 /* === Deuo Player Container === */
 .sh-duo-container{
-    background-color: #081026;
-    padding: 0.3125rem;
-    margin-top: 1rem;
+  display: grid;
+  row-gap: 1px;
+  padding: 0.3125rem;
+  margin-top: 1rem;
+  background-color: var(--detail-border);
+  clip-path: polygon(45% 0, 45% 22%, 100% 22%, 100% 100%, 0 100%, 0 0);
+}
+
+.sh-duo-pn1{
+  padding: 0.1875rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+}
+.sh-duo-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(100% 0, 100% 72%, 95% 100%, 0 100%, 0 0);
+}
+.sh-duo-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+
+/* === Kill === */
+.sh-duo-kill-pn1{
+  padding: 0.1875rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 71%, 90% 100%, 0 100%, 0 0);
+}
+.sh-duo-kill-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(100% 0, 100% 74%, 91% 100%, 0 100%, 0 0);
+}
+.sh-duo-kill-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+
+/* === MP === */
+.sh-duo-mp-pn1{
+  padding: 0.1875rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 71%, 90% 100%, 0 100%, 0 0);
+}
+.sh-duo-mp-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(100% 0, 100% 74%, 91% 100%, 0 100%, 0 0);
+}
+.sh-duo-mp-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+/* === Amount === */
+.sh-duo-amnt-pn1{
+  padding: 0.1875rem;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+}
+.sh-duo-amnt-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(100% 0, 100% 72%, 90% 100%, 0 100%, 0 0);
+}
+.sh-duo-amnt-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+/* === Total Calculation === */
+/* === Team Name ===*/
+.sh-dteam-pn1{
+  padding: 0.1875rem;
+  background-color: var(--deeper-green);
+  clip-path: polygon(100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+}
+.sh-dteam-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--text-dark);
+  clip-path: polygon(100% 0, 100% 72%, 95% 100%, 0 100%, 0 0);
+}
+.sh-dteam-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+
+/* === Total Kill === */
+.sh-dteam-kill-pn1{
+  padding: 0.1875rem;
+  background-color: var(--deeper-green);
+  clip-path: polygon(100% 0, 100% 71%, 90% 100%, 0 100%, 0 0);
+}
+.sh-dteam-kill-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--text-dark);
+  clip-path: polygon(100% 0, 100% 74%, 91% 100%, 0 100%, 0 0);
+}
+.sh-dteam-kill-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+
+/* === MP === */
+.sh-dteam-mp-pn1{
+  padding: 0.1875rem;
+  background-color: var(--deeper-green);
+  clip-path: polygon(100% 0, 100% 71%, 90% 100%, 0 100%, 0 0);
+}
+.sh-dteam-mp-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--text-dark);
+  clip-path: polygon(100% 0, 100% 74%, 91% 100%, 0 100%, 0 0);
+}
+.sh-dteam-mp-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+
+/* === Amount === */
+.sh-dteam-amnt-pn1{
+  padding: 0.1875rem;
+  background-color: var(--deeper-green);
+  clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+}
+.sh-dteam-amnt-pn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--text-dark);
+  clip-path: polygon(100% 0, 100% 72%, 90% 100%, 0 100%, 0 0);
+}
+.sh-dteam-amnt-pn1 p{
+  font-size: 1.125rem;
+  color: var(--text-dark);
+}
+
+/* === Squad Container === */
+.sh-squad-container{
+  display: grid;
+  row-gap: 1px;
+  padding: 0.3125rem;
+  margin-top: 1rem;
+  background-color: var(--detail-border);
+  clip-path: polygon(45% 0, 45% 15%, 100% 15%, 100% 100%, 0 100%, 0 0);
 }
 /* === Duo Registered Partcipants Section === */
 .sh-sdm-duo-team{
@@ -358,6 +490,7 @@
   gap: 0.5rem;
   justify-content: space-between;
 }
+
 .sh-sdm-duo-team-num1{
   width: 40%;
   padding: 0rem 0rem 0.125rem 0rem;

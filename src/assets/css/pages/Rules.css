@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0f1524;
+  --secondary-color: #2b3550;
+  --tertiary-color: #1c243a;
+  --quaternary-color: #000000;
+  --quinary-color: #ffffff;
+  --deeper-blue: #155c6e;
+  --deeper-green: #216E15;
+  --deeper-red: #8E1E0D;
+  --text-dark: #AAB2B7;
+  --detail-border: #0F1524;
+  --type-color: #212B47;
+}
+/* ==== MAIN SECTION === */
+.sh-rules-main-section {
+  justify-items: center;
+}
+/* === MY MATCHES CONTAINER === */
+.sh-rules-container {
+  width: 95%;
+  margin-top: 1.5rem;
+}
+/* === MM CATEGORY BTN === */
+.sh-rules-category-btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  color: var(--quinary-color);
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-rules-category-btn2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--quinary-color);
+  padding: 0rem 0.125rem 0.25rem 0rem;
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-rules-category-btn3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+  color: var(--quinary-color);
+  padding: 0rem 0.25rem 0.375rem 0rem;
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-rules-category-btn1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+/* === ruless Category Buttons === */
+.sh-rules-category-btn-section{
+  margin-top: 1rem;
+  display: grid;
+  padding: 0.5rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--secondary-color);
+  clip-path: polygon(2% 0, 100% 0, 100% 90%, 98% 100%, 0 100%, 0 10%);
+}
+.sh-category-btns{
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-rules-btn{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--primary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 81%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-rhvr-btn{
+  position: relative;
+}
+.sh-rhvr-btn:hover{
+  .sh-rules-rhvr-btnt, .sh-rules-rhvr-btnb{
+    visibility: visible;
+  }
+}
+.sh-rules-rhvr-btnt{
+  width: 17px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: var(--deeper-blue);
+  clip-path: polygon(0 0, 0% 100%, 30% 0);
+}
+.sh-rules-rhvr-btnb{
+  width: 15px;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  background-color: var(--deeper-blue);
+  clip-path: polygon(100% 0, 65% 100%, 100% 100%);
+}
+.sh-rules1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--deeper-red);
+  color: var(--quinary-color);
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-rules2 {
+  display: flex;
+  width: 100%;
+  height: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 0rem 0.125rem 0.25rem 0rem;
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-rules3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.25rem;
+  margin-top: 1rem;
+  background-color: var(--tertiary-color);
+  color: var(--quinary-color);
+  padding: 0rem 0.25rem 0.375rem 0rem;
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-rules1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sh-rules1 h1{
+    padding: 0rem 0.25rem;
+}
+.sh-all-rules-con{
+    margin-top: 1rem;
+}
+.sh-all-rules-con p{
+    color: var(--quinary-color);
+    font-size: 1rem;
+}

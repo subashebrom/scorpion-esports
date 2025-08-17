@@ -371,74 +371,75 @@ const MatchResults = () => {
                     {/* === Duo Player Container === */}
                     <div className="sh-duo-container">
                         <div className="sh-smr-duo-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
                                     <p>Team 01</p>
                                 </div>
                             </div>
                         </div>
                         <div className="sh-smr-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
                                     <p>Subas Hembrom</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-kill-pn2">
-                                <div className="sh-smrp-kill-pn1">
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
                                     <p>30</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-mp-pn2">
-                                <div className="sh-smrp-mp-pn1">
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
                                     <p>3.80</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-amnt-pn2">
-                                <div className="sh-smrp-amnt-pn1">
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
                                     <p>1,000</p>
                                 </div>
                             </div>
                         </div>
                         <div className="sh-smr-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
                                     <p>Subas Hembrom</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-kill-pn2">
-                                <div className="sh-smrp-kill-pn1">
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
                                     <p>30</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-mp-pn2">
-                                <div className="sh-smrp-mp-pn1">
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
                                     <p>3.80</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-amnt-pn2">
-                                <div className="sh-smrp-amnt-pn1">
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
                                     <p>1,000</p>
                                 </div>
                             </div>
                         </div>
+                        {/* === Total Calculation === */}
                         <div className="sh-smr-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
                                     <p>Team Name</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-kill-pn2">
-                                <div className="sh-smrp-kill-pn1">
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
                                     <p>60</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-mp-pn2">
-                                <div className="sh-smrp-mp-pn1">
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
                                     <p>6</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-amnt-pn2">
-                                <div className="sh-smrp-amnt-pn1">
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
                                     <p>2,000</p>
                                 </div>
                             </div>
@@ -446,75 +447,1257 @@ const MatchResults = () => {
                     </div>
                     <div className="sh-duo-container">
                         <div className="sh-smr-duo-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
                                     <p>Team 02</p>
                                 </div>
                             </div>
                         </div>
                         <div className="sh-smr-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
                                     <p>Subas Hembrom</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-kill-pn2">
-                                <div className="sh-smrp-kill-pn1">
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
                                     <p>30</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-mp-pn2">
-                                <div className="sh-smrp-mp-pn1">
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
                                     <p>3.80</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-amnt-pn2">
-                                <div className="sh-smrp-amnt-pn1">
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
                                     <p>1,000</p>
                                 </div>
                             </div>
                         </div>
                         <div className="sh-smr-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
                                     <p>Subas Hembrom</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-kill-pn2">
-                                <div className="sh-smrp-kill-pn1">
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
                                     <p>30</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-mp-pn2">
-                                <div className="sh-smrp-mp-pn1">
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
                                     <p>3.80</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-amnt-pn2">
-                                <div className="sh-smrp-amnt-pn1">
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
                                     <p>1,000</p>
                                 </div>
                             </div>
                         </div>
+                        {/* === Total Calculation === */}
                         <div className="sh-smr-participants-name">
-                            <div className="sh-smrp-pn2">
-                                <div className="sh-smrp-pn1">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
                                     <p>Team Name</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-kill-pn2">
-                                <div className="sh-smrp-kill-pn1">
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
                                     <p>60</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-mp-pn2">
-                                <div className="sh-smrp-mp-pn1">
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
                                     <p>6</p>
                                 </div>
                             </div>
-                            <div className="sh-smrp-amnt-pn2">
-                                <div className="sh-smrp-amnt-pn1">
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
                                     <p>2,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* === Duo Match Results === */}
+                <div className="sh-smr-registered-player-section">
+                    <div className="sh-smr-rpp3">
+                        <div className="sh-smr-rpp2">
+                            <div className="sh-smr-rpp1">
+                                <span> <FontAwesomeIcon icon={faSquarePollHorizontal} /></span>
+                                <h1>Full Result's</h1>
+                                <span> <FontAwesomeIcon icon={faSquarePollHorizontal} /> </span>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === SOLO PARITCIPANTS === */}
+                    <div className="sh-smr-participants-name">
+                        <div className="sh-smr-pn2">
+                            <div className="sh-smr-pn1">
+                                <p>Player Name</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-kill-pn2">
+                            <div className="sh-smr-kill-pn1">
+                                <p>Kills</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-mp-pn2">
+                            <div className="sh-smr-mp-pn1">
+                                <p>M.P</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-amnt-pn2">
+                            <div className="sh-smr-amnt-pn1">
+                                <p>Amount</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Duo Player Container === */}
+                    <div className="sh-duo-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 01</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>60</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>2,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sh-duo-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 02</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>60</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>2,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sh-duo-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 03</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>60</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>2,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* === Squad Match Results === */}
+                <div className="sh-smr-registered-player-section">
+                    <div className="sh-smr-rpp3">
+                        <div className="sh-smr-rpp2">
+                            <div className="sh-smr-rpp1">
+                                <span> <FontAwesomeIcon icon={faTrophy} /></span>
+                                <h1>WINNER</h1>
+                                <span> <FontAwesomeIcon icon={faTrophy} /> </span>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === SOLO PARITCIPANTS === */}
+                    <div className="sh-smr-participants-name">
+                        <div className="sh-smr-pn2">
+                            <div className="sh-smr-pn1">
+                                <p>Player Name</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-kill-pn2">
+                            <div className="sh-smr-kill-pn1">
+                                <p>Kills</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-mp-pn2">
+                            <div className="sh-smr-mp-pn1">
+                                <p>M.P</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-amnt-pn2">
+                            <div className="sh-smr-amnt-pn1">
+                                <p>Amount</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Squad Player Container === */}
+                    <div className="sh-squad-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 01</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>4,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Squad Player Container === */}
+                    <div className="sh-squad-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 02</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>4,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* === Squad Match Results === */}
+                <div className="sh-smr-registered-player-section">
+                    <div className="sh-smr-rpp3">
+                        <div className="sh-smr-rpp2">
+                            <div className="sh-smr-rpp1">
+                                <span> <FontAwesomeIcon icon={faSquarePollHorizontal} /></span>
+                                <h1>Full Result's</h1>
+                                <span> <FontAwesomeIcon icon={faSquarePollHorizontal} /> </span>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === SOLO PARITCIPANTS === */}
+                    <div className="sh-smr-participants-name">
+                        <div className="sh-smr-pn2">
+                            <div className="sh-smr-pn1">
+                                <p>Player Name</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-kill-pn2">
+                            <div className="sh-smr-kill-pn1">
+                                <p>Kills</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-mp-pn2">
+                            <div className="sh-smr-mp-pn1">
+                                <p>M.P</p>
+                            </div>
+                        </div>
+                        <div className="sh-smr-amnt-pn2">
+                            <div className="sh-smr-amnt-pn1">
+                                <p>Amount</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Squad Player Container === */}
+                    <div className="sh-squad-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 01</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>4,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Squad Player Container === */}
+                    <div className="sh-squad-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 01</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>4,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Squad Player Container === */}
+                    <div className="sh-squad-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 01</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>4,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Squad Player Container === */}
+                    <div className="sh-squad-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 01</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>4,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* === Squad Player Container === */}
+                    <div className="sh-squad-container">
+                        <div className="sh-smr-duo-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Team 01</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-duo-pn2">
+                                <div className="sh-duo-pn1">
+                                    <p>Subas Hembrom</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-kill-pn2">
+                                <div className="sh-duo-kill-pn1">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-mp-pn2">
+                                <div className="sh-duo-mp-pn1">
+                                    <p>3.80</p>
+                                </div>
+                            </div>
+                            <div className="sh-duo-amnt-pn2">
+                                <div className="sh-duo-amnt-pn1">
+                                    <p>1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* === Total Calculation === */}
+                        <div className="sh-smr-participants-name">
+                            <div className="sh-dteam-pn2">
+                                <div className="sh-dteam-pn1">
+                                    <p>Team Name</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-kill-pn2">
+                                <div className="sh-dteam-kill-pn1">
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-mp-pn2">
+                                <div className="sh-dteam-mp-pn1">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div className="sh-dteam-amnt-pn2">
+                                <div className="sh-dteam-amnt-pn1">
+                                    <p>4,000</p>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0f1524;
+  --secondary-color: #2b3550;
+  --tertiary-color: #1c243a;
+  --quaternary-color: #000000;
+  --quinary-color: #ffffff;
+  --deeper-blue: #155c6e;
+  --deeper-green: #216E15;
+  --deeper-red: #8E1E0D;
+  --text-dark: #AAB2B7;
+  --detail-border: #0F1524;
+  --type-color: #212B47;
+}
+
+/* === Profile Main Section === */
+.sh-profile-main-section{
+    justify-items: center;
+    background-color: var(--primary-color);
+}
+
+/* === Profile Main Container === */
+.sh-profile-main-container{
+    width: 95%;
+    margin-top: 1rem;
+}
+/* === Profile Image and Name === */
+.sh-profile{
+    justify-items: center;
+}
+.sh-pImg{
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: var(--tertiary-color);
+  padding: 0.125rem;
+  clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
+  margin-right: 0.3125rem;
+}
+.sh-profile img{
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
+}
+.sh-profile h1{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--quinary-color);
+}
+/* === Revenue Section === */
+.sh-revenue-section{
+  display: grid;
+  margin-top: 1rem;
+  grid-row-gap: 0.625rem;
+  grid-column-gap: 0.625rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sh-pRevenue-con2{
+  padding: 0.3125rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(100% 0, 100% 85%, 96% 100%, 0 100%, 0 0);
+}
+.sh-pRevenue-con1{
+  padding: 0.3125rem;
+  text-align: center;
+  background-color: var(--tertiary-color);
+  clip-path: polygon(100% 0, 100% 85%, 96% 100%, 0 100%, 0 0);
+}
+.sh-pRevenue-con1 h1{
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}
+.sh-pRevenue-con1 span{
+color: var(--deeper-green);
+}
+/* === Depo & Income Section === */
+.sh-depo-income-section{
+  display: grid;
+  margin-top: 1rem;
+  grid-column-gap: 0.625rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sh-Transaction-Btn1{
+  display: flex;
+  gap: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-Transaction-Btn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--quinary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+/* === Deposit by income Section === */
+.sh-depo-income-wallet-section{
+  margin-top: 1rem;
+}
+.sh-Transaction-dbi-Btn1{
+  display: flex;
+  gap: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0rem;
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+.sh-Transaction-dbi-Btn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--quinary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+/* === Profile Detail Section === */
+.sh-pDetails-section{
+  display: grid;
+  margin-top: 1rem;
+  grid-column-gap: 0.625rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sh-pd-Btn1{
+  display: flex;
+  font-size: 1rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+.sh-pd-Btn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--quinary-color);
+  clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+}
+/* === Help Section === */
+.sh-help-section{
+    display: grid;
+    margin-top: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+.sh-help-box1{
+  display: flex;
+  gap: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+.sh-help-box2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--secondary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+.sh-hbli{
+    font-size: 0.875rem;
+    color: var(--text-dark);
+}
+.sh-hbri a{
+  font-size: 0.875rem;
+  color: var(--tertiary-color);
+}
+.sh-eng-tl{
+    display: flex;
+    align-items: center;
+}
+.sh-eng-tl span{
+    color: #DEA403;
+}
+.sh-vedio-box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0.3125rem;
+    background-color: var(--text-dark);
+    clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+.sh-vedio-box2{
+   padding: 0.125rem;
+   background-color: #D9D9D9;
+   clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+.sh-vedio-box1 span{
+    color: var(--deeper-red);
+}
+/* === share section === */
+.sh-share-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-shareLI{
+    margin-left: 0.3125rem;
+}
+.sh-depo-income-wallet-section{
+  margin-top: 1rem;
+}
+.sh-share-Btn1{
+  display: flex;
+  gap: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0rem;
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+.sh-share-Btn2{
+  padding: 0rem 0rem 0.125rem 0rem;
+  background-color: var(--quinary-color);
+  clip-path: polygon(3% 0, 100% 0, 100% 75%, 97% 100%, 0 100%, 0 25%);
+}
+.sh-share-link{
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: var(--primary-color);
+  padding: 0.125rem;
+  clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
+  margin-right: 0.3125rem;
+}
+.sh-share-link img{
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
+}
