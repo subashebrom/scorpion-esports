@@ -31,6 +31,7 @@ import TopPlayer from "../pages/TopPlayer";
 import WithdrawRequest from "../pages/WithdrawRequest";
 import MatchDetails from "../pages/MatchDetails";
 import Join from "../pages/Join";
+import MatchResults from "../pages/MatchResults";
 
 const MainRoutes = createBrowserRouter([
     {
@@ -160,6 +161,10 @@ const MainRoutes = createBrowserRouter([
             {
                 path:'/match-join',
                 element:<Join/>
+            },
+            {
+                path:'/match-results',
+                element:<MatchResults/>
             },
         ]
     }

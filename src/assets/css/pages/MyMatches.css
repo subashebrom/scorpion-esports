@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0f1524;
+  --secondary-color: #2b3550;
+  --tertiary-color: #1c243a;
+  --quaternary-color: #000000;
+  --quinary-color: #ffffff;
+  --deeper-blue: #155c6e;
+  --deeper-green: #216e15;
+  --deeper-red: #8e1e0d;
+  --text-dark: #aab2b7;
+  --detail-border: #0f1524;
+  --type-color: #212b47;
+}
+
+/* ==== MAIN SECTION === */
+.sh-my-match-main-section {
+  justify-items: center;
+}
+/* === MY MATCHES CONTAINER === */
+.sh-mm-container {
+  width: 95%;
+  margin-top: 1.5rem;
+}
+/* === MM CATEGORY BTN === */
+.sh-mm-category-btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  color: var(--quinary-color);
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-mm-category-btn-2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--quinary-color);
+  padding: 0rem 0.125rem 0.25rem 0rem;
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-mm-category-btn3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  color: var(--quinary-color);
+  padding: 0rem 0.25rem 0.375rem 0rem;
+  clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-mm-category-btn1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+/* === My Matches Card === */
+.sh-mm-card-container{
+
+}
+.sh-mm-card-box{
+    position: relative;
+    margin-top: 1rem;
+    color: var(--text-dark);
+    font-size: 1.125rem;
+    padding: 0rem 0rem 0.1875rem 0rem;
+    background-color: var(--secondary-color);
+    clip-path: polygon(97% 0, 100% 15%, 100% 100%, 3% 100%, 0 85%, 0 0);
+}
+.sh-mm-cards{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 2.5rem;
+    padding: 0.3125rem;
+    background-color: var(--tertiary-color);
+    clip-path: polygon(97% 0, 100% 15%, 100% 100%, 3% 100%, 0 85%, 0 0);
+}
+.sh-mm-left-item{
+    margin-left: 0.25rem;
+}
+.sh-mm-middle-item{
+    display: grid;
+    grid-template-columns: 1;
+    row-gap: 0.375rem;
+}
+.sh-mm-entry-fee{
+    position: absolute;
+    color: var(--quinary-color);
+    background-color: var(--quaternary-color);
+    padding: 0.125rem 1rem;
+    top: 0;
+    right: 0;
+}
