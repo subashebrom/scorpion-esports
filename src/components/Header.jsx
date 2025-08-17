@@ -1,27 +1,39 @@
 
 import "../css/Header.css"
 import { NavLink } from 'react-router';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGamepad, faWallet } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { Link } from 'react-router';
 
 const Header = () => {
     return (
-        <div className='sh-header-main-section'>
-            <div className="sh-header-container">
-                <div className="sh-header-logo">
-                    <NavLink to=''> <span> <FontAwesomeIcon icon={faGamepad}/> SCORPION E-SPORTS</span></NavLink>
+        <>
+        <div className="cba-header-container">
+            <div className="cba-header-content">
+                <div className="cba-header-brand-logo-box">
+                    <NavLink to='/'>
+                        <div className="cba-hblb-con">
+                            <i class='bxr bxs-gaming'></i> 
+                            <h1>Scorpio E-sports</h1>
+                        </div>
+                    </NavLink>
                 </div>
-                {/* === Wallet Section === */}
-                <div className="sh-header-right-items">
-                    <NavLink to=''> <FontAwesomeIcon icon={faBell}/> </NavLink>
-                    <div>
-                        <NavLink to=''> <span><FontAwesomeIcon icon={faWallet} /></span><b>0.00 TK</b> </NavLink>
+                <div className="cba-header-notify-and-wallet-box">
+                    <div className="cba-header-notify-icon">
+                        <NavLink to=''>
+                            <i class='bxr bxs-bell-ring'></i> 
+                        </NavLink> 
+                    </div>
+                    <div className="cba-header-wallet-icon">
+                        <NavLink to='/profile'>
+                            <div className="cba-hwi-con">
+                                <i class='bxr bxs-wallet-alt'></i>
+                                <p><span>0.00</span> TK</p>
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
-
             </div>
         </div>
+        </>
     );
 };
 

@@ -1,4 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 67.5%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* -------------------------------------------------------- */
 
 :root {
     --primary-color: #0F1524;
@@ -8,30 +55,95 @@
     --quinary-color: #FFFFFF;
     --deeper-green: #155C6E;
 }
-/* === SH HEADER MAIN SECTION === */
-.sh-header-main-section{
-    min-width: 320px;
-    max-width: 768px;
-    justify-items: center;
+
+/* --------------------------------------------------------- */
+/* Header */
+.cba-header-container {
+    width: 100%;
     background-color: var(--quaternary-color);
-}
-/* === SH HEADER CONTAINER === */
-.sh-header-container{
-    width: 95%;
-    padding: 1rem 0rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     color: var(--quinary-color);
-    background-color: var(--quaternary-color);
 }
-/* === WALLET SECTION === */
-.sh-header-right-items{
+
+/* header content */
+.cba-header-container .cba-header-content {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--quaternary-color);
+    color: var(--quinary-color);
 }
-span{
-    padding-right: 0.25rem;
+
+/* header logo */
+.cba-header-container .cba-header-content .cba-header-brand-logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.cba-header-container .cba-header-content .cba-header-brand-logo-box .cba-hblb-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.cba-header-container .cba-header-content .cba-header-brand-logo-box .cba-hblb-con i {
+    font-size:2rem;
+    color: var(--quinary-color);
+    margin-top: 0.1rem;
+}
+
+.cba-header-container .cba-header-content .cba-header-brand-logo-box .cba-hblb-con h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--quinary-color);
+    margin: 0;
+}
+
+/* header notify and wallet */
+.cba-header-container .cba-header-content .cba-header-notify-and-wallet-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* header notify */
+.cba-header-container .cba-header-content .cba-header-notify-and-wallet-box .cba-header-notify-icon {
+    cursor: pointer;
+}
+
+.cba-header-container .cba-header-content .cba-header-notify-and-wallet-box .cba-header-notify-icon i {
+    font-size: 2rem;
+    color: var(--quinary-color);
+    margin-top: 0.3rem;
+}
+
+/* header wallet */
+.cba-header-container .cba-header-content .cba-header-notify-and-wallet-box .cba-header-wallet-icon {
+    cursor: pointer;
+}
+
+.cba-header-container .cba-header-content .cba-header-notify-and-wallet-box .cba-header-wallet-icon .cba-hwi-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cba-header-container .cba-header-content .cba-header-notify-and-wallet-box .cba-header-wallet-icon .cba-hwi-con i {
+    font-size: 2rem;
+    color: var(--quinary-color);
+}
+
+.cba-header-container .cba-header-content .cba-header-notify-and-wallet-box .cba-header-wallet-icon .cba-hwi-con p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--quinary-color);
+    margin: 0;
+}
+
+/* --------------------------------------------------------- */
