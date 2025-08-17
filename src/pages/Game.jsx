@@ -136,11 +136,11 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Custom Challenge Match" />
+                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-tmm-mb-data">
                                     <div className="cba-gpc-tmm-mbd-inner">
-                                        <h3>CUSTOM CHALLENGE</h3>
+                                        <h3>CHALLENGE</h3>
                                         <p>10 Match Found</p>
                                     </div>
                                 </div>
@@ -243,12 +243,12 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-smm-match-box">
                                 <div className="cba-gpc-smm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Custom Challenge Match" />
+                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-smm-mb-data">
                                     <div className="cba-gpc-smm-mbd-inner">
                                         <div className="cba-gpc-smm-mbd-i-text">
-                                            <h3>CUSTOM CHALLENGE</h3>
+                                            <h3>CHALLENGES</h3>
                                             <p>10 Match Found</p>
                                         </div>
                                         <div className="cba-gpc-smm-mbd-i-icon">
@@ -330,11 +330,11 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-odamm-match-box">
                                 <div className="cba-gpc-odamm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Custom Challenge Match" />
+                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-odamm-mb-data">
                                     <div className="cba-gpc-odamm-mbd-inner">
-                                        <h3>CUSTOM CHALLENGE</h3>
+                                        <h3>CHALLENGES</h3>
                                         <p>10 Match Found</p>
                                     </div>
                                 </div>
@@ -412,11 +412,11 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tdamm-match-box">
                                 <div className="cba-gpc-tdamm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Custom Challenge Match" />
+                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-tdamm-mb-data">
                                     <div className="cba-gpc-tdamm-mbd-inner">
-                                        <h3>CUSTOM CHALLENGE</h3>
+                                        <h3>CHALLENGES</h3>
                                         <p>10 Match Found</p>
                                     </div>
                                 </div>
