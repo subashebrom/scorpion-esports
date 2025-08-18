@@ -53,7 +53,12 @@ html {
     --tertiary-color: #1C243A;
     --quaternary-color: #000000;
     --quinary-color: #FFFFFF;
-    --deeper-green: #155C6E;
+    --deeper-dark-green: #155C6E;
+    --deeper-green: #216E15;
+    --deeper-red: #8E1E0D;
+    --text-dark: #AAB2B7;
+    --detail-border: #0F1524;
+    --type-color: #212B47;
 }
 
 /* -------------------------------------------------------- */
@@ -81,23 +86,72 @@ html {
 
 /* footer menu box content */
 .cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con {
-    background-color: var(--tertiary-color);
     width: 100%;
-    display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0.5rem 0rem;
     cursor: pointer;
-    clip-path: polygon(15% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0% 40%);
-    /* position: relative; */
+    position: relative;
+}
+
+/* menu 1 */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(1) {
+    background-color: var(--deeper-dark-green);
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(1) .cba-fmb-menu {
+    padding-bottom: 4px;
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(1):active .cba-fmb-menu {
+    padding-bottom: 2px;
+}
+
+/* menu 2 */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(2) {
+    background-color: var(--deeper-dark-green);
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(2) .cba-fmb-menu {
+    padding-bottom: 2px;
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(2):active .cba-fmb-menu {
+    padding-bottom: 0px;
+}
+
+/* menu 3 */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(3) {
+    background-color: var(--deeper-dark-green);
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(3) .cba-fmb-menu {
+    padding-bottom: 2px;
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(3):active .cba-fmb-menu {
+    padding-bottom: 0px;
+}
+
+/* menu 4 */
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(4) {
+    background-color: var(--deeper-dark-green);
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(4) .cba-fmb-menu {
+    padding-bottom: 4px;
+}
+
+.cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con:nth-child(4):active .cba-fmb-menu {
+    padding-bottom: 2px;
 }
 
 /* footer menu box content spans */
 .cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con span:nth-child(1) {
-    width: 2rem;
-    height: 2rem;
-    background-color: var(--deeper-green);
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: var(--deeper-dark-green);
     position: absolute;
     top: 0rem;
     left: 0rem;
@@ -105,26 +159,28 @@ html {
 }
 
 .cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con span:nth-child(3) {
-    width: 3rem;
-    height: 3rem;
-    background-color: var(--deeper-green);
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: var(--deeper-dark-green);
     position: absolute;
     bottom: 0rem;
     right: 0rem;
-    clip-path: polygon(100% 70%, 62% 100%, 100% 100%);
-    z-index: 1;
+    clip-path: polygon(100% 74%, 72% 100%, 100% 100%);
 }
 
 /* footer menu box content menu */
 .cba-footer-container  .cba-footer-content .cba-footer-menu-box .cba-fmb-con .cba-fmb-menu {
+    width: 100%;
     display: flex;
-    gap: 0rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: var(--quinary-color);
     font-size: 1.2rem;
     font-weight: 500;
+    padding: 0.5rem 0rem;
+    background-color: var(--tertiary-color);
+    clip-path: polygon(16% 0, 100% 0, 100% 62%, 84% 100%, 0 100%, 0% 38%);
     /* icon */
     i {
         font-size: 2rem;
