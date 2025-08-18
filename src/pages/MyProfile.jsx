@@ -18,7 +18,7 @@ const MyProfile = () => {
                 {/* === Profile Image and Name === */}
                 <div className="sh-profile">
                     <div className="sh-pImg">
-                        <img src="/public/images/free-fire.jpg" alt="" />
+                        <img src="./images/free-fire.jpg" alt="" />
                     </div>
                     <h1>My Info</h1>
                 </div>
