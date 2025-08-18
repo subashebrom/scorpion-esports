@@ -10,10 +10,10 @@ const Join = () => {
             <div className="sh-join-container">
                 <div className="sh-join-category-btn3">
                     <div className="sh-join-category-btn-2">
-                        <div className="sh-join-category-btn1">
+                        <NavLink to='/br-matches' className="sh-join-category-btn1">
                             <span> <FontAwesomeIcon icon={faChevronLeft} /></span>
-                            <NavLink to=''>MATCHE'S</NavLink>
-                        </div>
+                            <h1>MATCHE'S</h1>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === Joining Section === */}

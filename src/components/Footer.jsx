@@ -20,10 +20,12 @@ const Footer = () => {
                         </div>
                         <div className="cba-fmb-con">
                             <span></span>
+                            <NavLink to='/my-matches'>
                             <div className="cba-fmb-menu">
                                 <i class='bxr bx-list-ul'></i> 
                                 <h3>My Matches</h3>
                             </div>
+                            </NavLink>
                             <span></span>
                         </div>
                         <div className="cba-fmb-con">
@@ -38,10 +40,12 @@ const Footer = () => {
                         </div>
                         <div className="cba-fmb-con">
                             <span></span>
+                            <NavLink to='/profile'>
                             <div className="cba-fmb-menu">
                                 <i class='bxr bx-user-hexagon'></i> 
                                 <h3>Profile</h3>
                             </div>
+                            </NavLink>
                             <span></span>
                         </div>
                     </div>

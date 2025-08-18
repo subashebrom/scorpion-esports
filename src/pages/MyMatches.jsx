@@ -8,10 +8,10 @@ const MyMatches = () => {
             <div className="sh-mm-container">
                 <div className="sh-mm-category-btn3">
                     <div className="sh-mm-category-btn-2">
-                        <div className="sh-mm-category-btn1">
+                        <NavLink to='/' className="sh-mm-category-btn1">
                             <span> <FontAwesomeIcon icon={faChevronLeft} /></span>
-                            <NavLink to=''>MATCHE'S</NavLink>
-                        </div>
+                            <h1>MATCHE'S</h1>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === My Matches Card === */}

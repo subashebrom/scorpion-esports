@@ -8,10 +8,10 @@ const Results = () => {
             <div className="sh-result-container">
                 <div className="sh-result-category-btn3">
                     <div className="sh-result-category-btn2">
-                        <div className="sh-result-category-btn1">
+                        <NavLink to='/' className="sh-result-category-btn1">
                             <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <NavLink to=''><h1>TODAY'S BR MATCHE'S</h1> </NavLink>
-                        </div>
+                            <div><h1>TODAY'S BR MATCHES</h1> </div>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === Results Category Buttons === */}
@@ -127,7 +127,7 @@ const Results = () => {
                         </div>
                         {/* === Match Details === */}
                         <div className="sh-result-details-section">
-                            <NavLink to='' className="sh-result-details-box1">
+                            <NavLink to='/match-results' className="sh-result-details-box1">
                                 <div className="sh-result-details-box">
                                     <p>Match Result</p>
                                 </div>
@@ -195,7 +195,7 @@ const Results = () => {
                         </div>
                         {/* === Match Details === */}
                         <div className="sh-result-details-section">
-                            <NavLink to='' className="sh-result-details-box1">
+                            <NavLink to='/match-results' className="sh-result-details-box1">
                                 <div className="sh-result-details-box">
                                     <p>Match Result</p>
                                 </div>
@@ -263,7 +263,7 @@ const Results = () => {
                         </div>
                         {/* === Match Details === */}
                         <div className="sh-result-details-section">
-                            <NavLink to='' className="sh-result-details-box1">
+                            <NavLink to='/match-results' className="sh-result-details-box1">
                                 <div className="sh-result-details-box">
                                     <p>Match Result</p>
                                 </div>

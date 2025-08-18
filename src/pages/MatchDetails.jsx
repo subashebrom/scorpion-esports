@@ -9,10 +9,10 @@ const MatchDetails = () => {
             <div className="sh-md-container">
                 <div className="sh-md-category-btn3">
                     <div className="sh-md-category-btn2">
-                        <div className="sh-md-category-btn1">
+                        <NavLink to='/br-matches' className="sh-md-category-btn1">
                             <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <NavLink to=''><h1>MATCH DETAIL'S</h1> </NavLink>
-                        </div>
+                            <div><h1>MATCH DETAIL'S</h1> </div>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === SOLO MATCH DETAILS SECTION === */}

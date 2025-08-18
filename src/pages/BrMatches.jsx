@@ -8,10 +8,10 @@ const BrMatches = () => {
             <div className="sh-br-container">
                 <div className="sh-br-category-btn3">
                     <div className="sh-br-category-btn2">
-                        <div className="sh-br-category-btn1">
+                        <NavLink to='/' className="sh-br-category-btn1">
                             <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <NavLink to=''><h1>TODAY'S BR MATCHE'S</h1> </NavLink>
-                        </div>
+                            <div><h1>TODAY'S BR MATCHE'S</h1> </div>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === BR Mathces cards === */}
@@ -89,7 +89,7 @@ const BrMatches = () => {
                                 </div>
                             </div>
                             {/* === Join Button === */}
-                            <NavLink to='/' className="sh-joining-box1">
+                            <NavLink to='/match-join' className="sh-joining-box1">
                                 <div className="sh-joning-box"><h2>Join</h2></div>
                             </NavLink>
                         </div>
@@ -100,7 +100,7 @@ const BrMatches = () => {
                                     <p>Room Details</p>
                                 </div>
                             </NavLink>
-                            <NavLink to='' className="sh-brm-details-box1">
+                            <NavLink to='/match-details' className="sh-brm-details-box1">
                                 <div className="sh-brm-details-box">
                                     <p>Match Details</p>
                                 </div>
@@ -191,7 +191,7 @@ const BrMatches = () => {
                                 </div>
                             </div>
                             {/* === Join Button === */}
-                            <NavLink to='/' className="sh-joining-box1">
+                            <NavLink to='/match-join' className="sh-joining-box1">
                                 <div className="sh-joning-box"><h2>Join</h2></div>
                             </NavLink>
                         </div>
@@ -202,7 +202,7 @@ const BrMatches = () => {
                                     <p>Room Details</p>
                                 </div>
                             </NavLink>
-                            <NavLink to='' className="sh-brm-details-box1">
+                            <NavLink to='/match-details' className="sh-brm-details-box1">
                                 <div className="sh-brm-details-box">
                                     <p>Match Details</p>
                                 </div>
@@ -293,7 +293,7 @@ const BrMatches = () => {
                                 </div>
                             </div>
                             {/* === Join Button === */}
-                            <NavLink to='/' className="sh-joining-box1">
+                            <NavLink to='/match-join' className="sh-joining-box1">
                                 <div className="sh-joning-box"><h2>Join</h2></div>
                             </NavLink>
                         </div>
@@ -304,7 +304,7 @@ const BrMatches = () => {
                                     <p>Room Details</p>
                                 </div>
                             </NavLink>
-                            <NavLink to='' className="sh-brm-details-box1">
+                            <NavLink to='/match-details' className="sh-brm-details-box1">
                                 <div className="sh-brm-details-box">
                                     <p>Match Details</p>
                                 </div>

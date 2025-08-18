@@ -33,6 +33,7 @@ import MatchDetails from "../pages/MatchDetails";
 import Join from "../pages/Join";
 import MatchResults from "../pages/MatchResults";
 import Rules from "../pages/Rules";
+import Notification from "../pages/Notification";
 
 const MainRoutes = createBrowserRouter([
     {
@@ -170,6 +171,10 @@ const MainRoutes = createBrowserRouter([
             {
                 path:'/app-rules',
                 element:<Rules/>
+            },
+            {
+                path:'/notification',
+                element:<Notification/>
             },
         ]
     }

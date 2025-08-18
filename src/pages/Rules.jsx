@@ -8,10 +8,10 @@ const Rules = () => {
             <div className="sh-rules-container">
                 <div className="sh-rules-category-btn3">
                     <div className="sh-rules-category-btn2">
-                        <div className="sh-rules-category-btn1">
+                        <NavLink to='/profile' className="sh-rules-category-btn1">
                             <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <NavLink to=''><h1>App Rules</h1> </NavLink>
-                        </div>
+                            <NavLink to='/profile'><h1>App Rules</h1> </NavLink>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === ruless Category Buttons === */}

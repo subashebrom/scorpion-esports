@@ -9,10 +9,10 @@ const MatchResults = () => {
             <div className="sh-mr-container">
                 <div className="sh-mr-category-btn3">
                     <div className="sh-mr-category-btn2">
-                        <div className="sh-mr-category-btn1">
+                        <NavLink to='/results' className="sh-mr-category-btn1">
                             <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <NavLink to=''><h1>MATCH RESULT'S</h1> </NavLink>
-                        </div>
+                            <div><h1>MATCH RESULT'S</h1> </div>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === SOLO Match Results === */}
@@ -23,7 +23,7 @@ const MatchResults = () => {
                                 <div className="sh-mr-category-2btn3">
                                     <div className="sh-mr-category-btn2">
                                         <div className="sh-mr-category-btn1">
-                                            <NavLink to=''><h1>SOLO | MOBILE | REGULAR</h1> </NavLink>
+                                            <div><h1>SOLO | MOBILE | REGULAR</h1> </div>
                                         </div>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const MatchResults = () => {
                                 <div className="sh-mr-category-2btn3">
                                     <div className="sh-mr-category-btn2">
                                         <div className="sh-mr-category-btn1">
-                                            <NavLink to=''><h1>PRIZE DETAILS</h1> </NavLink>
+                                            <div><h1>PRIZE DETAILS</h1> </div>
                                         </div>
                                     </div>
                                 </div>

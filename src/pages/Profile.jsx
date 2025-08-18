@@ -63,31 +63,31 @@ const Profile = () => {
                 {/* === Deposit by money Section === */}
                 <div className="sh-depo-income-wallet-section">
                     <div className="sh-Transaction-dbi-Btn2">
-                        <div className="sh-Transaction-dbi-Btn1">
+                        <NavLink to='/deposit-byincome' className="sh-Transaction-dbi-Btn1">
                             <span> <FontAwesomeIcon icon={faHandHoldingDollar}/> </span>
-                            <NavLink to=''>DEPOSIT BY INCOME</NavLink>
-                        </div>
+                            <h1>DEPOSIT BY INCOME</h1>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === Profile Detail Section === */}
                 <div className="sh-pDetails-section">
                     <div className="sh-pd-Btn2">
-                        <div className="sh-pd-Btn1">
+                        <NavLink to='/my-profile' className="sh-pd-Btn1">
                             <span> <FontAwesomeIcon icon={faUser}/> </span>
-                            <NavLink to=''>My Profile</NavLink>
-                        </div>
+                            <p>My Profile</p>
+                        </NavLink>
                     </div>
                     <div className="sh-pd-Btn2">
-                        <div className="sh-pd-Btn1">
+                        <NavLink to='/app-rules' className="sh-pd-Btn1">
                             <span> <FontAwesomeIcon icon={faScaleBalanced}/> </span>
-                            <NavLink to=''>Rules</NavLink>
-                        </div>
+                            <p>Rules</p>
+                        </NavLink>
                     </div>
                     <div className="sh-pd-Btn2">
-                        <div className="sh-pd-Btn1">
+                        <NavLink to='/top-players' className="sh-pd-Btn1">
                             <span> <FontAwesomeIcon icon={faRankingStar}/> </span>
-                            <NavLink to=''>Top Players</NavLink>
-                        </div>
+                            <p>Top Players</p>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === Help Section === */}

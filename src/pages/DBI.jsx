@@ -8,10 +8,10 @@ const DBI = () => {
             <div className="sh-dbi-container">
                 <div className="sh-dbi-category-btn3">
                     <div className="sh-dbi-category-btn2">
-                        <div className="sh-dbi-category-btn1">
+                        <NavLink to='/profile' className="sh-dbi-category-btn1">
                             <span> <FontAwesomeIcon icon={faChevronLeft} /></span>
-                            <NavLink to=''>Profile</NavLink>
-                        </div>
+                            <p>Profile</p>
+                        </NavLink>
                     </div>
                 </div>
                 {/* === DBI Card Section === */}
