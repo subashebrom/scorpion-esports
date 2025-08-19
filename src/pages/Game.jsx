@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router';
 import '../assets/css/pages/game.css'
 import { useState } from "react";
 
@@ -79,7 +80,7 @@ const Game = () => {
                         </div>
                         {/* game page todays match content matches */}
                         <div className="cba-gpc-tm-matches">
-                            <div className="cba-gpc-tmm-match-box">
+                            <NavLink to='/br-matches' className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
                                     <img src="../../public/images/br-match.png" alt="BR Match" />
                                 </div>
@@ -89,7 +90,7 @@ const Game = () => {
                                         <p>10 Match Found</p>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                             <div className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
                                     <img src="../../public/images/c-squad-match.png" alt="Class Squad Match" />

@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* html{
+  font-size: 16px;
+} */
 :root {
   --primary-color: #0f1524;
   --secondary-color: #2b3550;
@@ -19,6 +22,8 @@
 /* ==== MAIN SECTION === */
 .sh-join-main-section {
   justify-items: center;
+  padding-bottom: 20px;
+  background-color: var(--primary-color);
 }
 /* === MY MATCHES CONTAINER === */
 .sh-join-container {

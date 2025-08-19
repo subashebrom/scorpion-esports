@@ -20,6 +20,7 @@
 /* === Profile Main Section === */
 .sh-profile-main-section{
     justify-items: center;
+    padding-bottom: 100px;
     background-color: var(--primary-color);
 }
 

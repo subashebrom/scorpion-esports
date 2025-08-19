@@ -19,6 +19,7 @@
 /* ==== MAIN SECTION === */
 .sh-my-matches-main-section {
   justify-items: center;
+  padding-bottom: 20px;
 }
 /* === MY MATCHES CONTAINER === */
 .sh-br-container {
