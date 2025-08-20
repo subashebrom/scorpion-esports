@@ -22,13 +22,13 @@ const BrMatches = () => {
                         <div className="sh-brm-taile">
                             {/* === Macth card image === */}
                             <div className="sh-brm-match-image">
-                                <img src="/public/images/free-fire.jpg" alt="" />
+                                <img src="./images/free-fire.jpg" alt="" />
                             </div>
                             {/* === Text Details === */}
                             <div className="sh-brm-text-details">
                                 <h1>SOLO | MOBILE | REGULAR</h1>
                                 {/* === Real time & date === */}
-                                <input type="datetime-local" />
+                                <input className="sh-brm-time" type="datetime-local" />
                             </div>
                         </div>
                         {/* === Match Entry Details === */}
@@ -115,7 +115,7 @@ const BrMatches = () => {
                         <div className="sh-brm-numbering-card"><span>#1130</span></div>
                         {/* === Timer box === */}
                         <div className="sh-brm-timer-box">
-                            <input type="datetime-local" />
+                            <input className="sh-starting-time" type="datetime-local" />
                         </div>
                     </div>
                     {/* === Card === */}
@@ -130,7 +130,7 @@ const BrMatches = () => {
                             <div className="sh-brm-text-details">
                                 <h1>DUO | MOBILE | REGULAR</h1>
                                 {/* === Real time & date === */}
-                                <input type="datetime-local" />
+                                <input className="sh-brm-time" type="datetime-local" />
                             </div>
                         </div>
                         {/* === Match Entry Details === */}
@@ -217,7 +217,7 @@ const BrMatches = () => {
                         <div className="sh-brm-numbering-card"><span>#1130</span></div>
                         {/* === Timer box === */}
                         <div className="sh-brm-timer-box">
-                            <input type="datetime-local" />
+                            <input className="sh-starting-time" type="datetime-local" />
                         </div>
                     </div>
                     {/* === Card === */}
@@ -232,7 +232,7 @@ const BrMatches = () => {
                             <div className="sh-brm-text-details">
                                 <h1>SQUAD | MOBILE | REGULAR</h1>
                                 {/* === Real time & date === */}
-                                <input type="datetime-local" />
+                                <input className="sh-brm-time" type="datetime-local" />
                             </div>
                         </div>
                         {/* === Match Entry Details === */}
@@ -319,7 +319,7 @@ const BrMatches = () => {
                         <div className="sh-brm-numbering-card"><span>#1130</span></div>
                         {/* === Timer box === */}
                         <div className="sh-brm-timer-box">
-                            <input type="datetime-local" />
+                            <input className="sh-starting-time" type="datetime-local" />
                         </div>
                     </div>
                 </div>
