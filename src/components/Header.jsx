@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
                 <div className="cba-header-notify-and-wallet-box">
                     <div className="cba-header-notify-icon">
-                        <NavLink to=''>
+                        <NavLink to='/notification'>
                             <i class='bxr bxs-bell-ring'></i> 
                         </NavLink> 
                     </div>

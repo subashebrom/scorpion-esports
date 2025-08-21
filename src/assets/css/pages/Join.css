@@ -24,11 +24,14 @@
   justify-items: center;
   padding-bottom: 20px;
   background-color: var(--primary-color);
+    height: 100vh;
+  overflow-y: scroll;
 }
 /* === MY MATCHES CONTAINER === */
 .sh-join-container {
   width: 95%;
   margin-top: 20px;
+  margin-bottom: 80px;
 }
 /* === MM CATEGORY BTN === */
 .sh-join-category-btn1 {

@@ -62,6 +62,11 @@ html {
     width: 100%;
     background-color: var(--quaternary-color);
     color: var(--quinary-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: sticky;
+    z-index: 999;
 }
 
 /* header content */

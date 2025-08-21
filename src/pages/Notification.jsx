@@ -10,7 +10,7 @@ const Notification = () => {
                     <div className="sh-notifi-category-btn2">
                         <div className="sh-notifi-category-btn1">
                             <span> <FontAwesomeIcon icon={faBell} /></span>
-                            <NavLink to='/profile'>History / Notification</NavLink>
+                            <NavLink to='/profile'><h1>History / Notification</h1> </NavLink>
                         </div>
                     </div>
                 </div>

@@ -22,6 +22,8 @@
   justify-items: center;
   padding-bottom: 20px;
   background-color: var(--primary-color);
+    height: 100vh;
+  overflow-y: scroll;
 }
 
 /* === Profile Main Container === */

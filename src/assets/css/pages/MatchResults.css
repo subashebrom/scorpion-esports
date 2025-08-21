@@ -16,16 +16,22 @@
   --detail-border: #0F1524;
   --type-color: #212B47;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* ==== MAIN SECTION === */
 .sh-mr-main-section {
   justify-items: center;
   padding-bottom: 20px;
   background-color: var(--primary-color);
+    height: 100vh;
+  overflow-y: scroll;
 }
 /* === MY MATCHES CONTAINER === */
 .sh-mr-container {
   width: 95%;
   margin-top: 20px;
+  margin-bottom: 80px;
 }
 /* === MM CATEGORY BTN === */
 .sh-mr-category-btn1 {

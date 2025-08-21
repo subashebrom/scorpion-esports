@@ -21,11 +21,15 @@
   justify-items: center;
   padding-bottom: 20px;
   background-color: var(--primary-color);
+  height: 100vh;
+  overflow-y: scroll;
 }
 /* === MY MATCHES CONTAINER === */
 .sh-br-container {
   width: 95%;
   margin-top: 20px;
+  margin-bottom: 80px;
+
 }
 /* === MM CATEGORY BTN === */
 .sh-br-category-btn1 {
