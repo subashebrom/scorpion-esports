@@ -92,17 +92,17 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.6rem 0rem;
+    gap: 10px;
+    padding: 5px 0px;
     background-color: #2B3550;
     color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: medium;
+    font-size: 20px;
+    font-weight: 600;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading .cba-gpc-hbox h2 i {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #F89827;
 }
 
@@ -156,7 +156,7 @@ html {
     padding: 0 3px 3px 0;
     background-color: #1C243A;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
-    margin: 2rem 0rem;
+    margin: 18px 0px;
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-heading .cba-gpc-tm-hbox {
@@ -173,17 +173,17 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.6rem 0rem;
+    gap: 10px;
+    padding: 5px 0;
     background-color: #2B3550;
     color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: medium;
+    font-size: 20px;
+    font-weight: 600;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-heading .cba-gpc-tm-hbox h2 i {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #F89827;
 }
 
@@ -192,20 +192,19 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
-    margin: 2rem 0rem;
+    column-gap: 15px;
+    row-gap: 15px;
 }
 
 /* game page todays match content matches box */
 .cba-game-page-container .cba-gpc-content .cba-gpc-todays-match .cba-gpc-tm-matches .cba-gpc-tmm-match-box {
     background-color: #2B3550;
     width: 100%;
-    border-radius: 0.313rem;
-    padding: 0.625rem;
+    border-radius: 5px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 5px;
     cursor: pointer;
 }
 
@@ -230,19 +229,18 @@ html {
     .cba-gpc-tmm-mbd-inner {
         background-color: #1C243A;
         clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
-        padding: 0.313rem 0.625rem;
+        padding: 5px;
         display: flex;
         flex-direction: column;
         /* inner box data design */
         h3 {
             color: #FFFFFF;
-            font-size: 1.25rem;
+            font-size: 18px;
             font-weight: 600;
         }
         p {
             color: #656E7F;
-            font-size: 0.8rem;
-            font-weight: 600;
+            font-size: 16px;
         }
     }
 }
@@ -259,7 +257,7 @@ html {
     padding: 0 3px 3px 0;
     background-color: #1C243A;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
-    margin: 1rem 0rem 2rem;
+    margin: 18px 0px;
     cursor: pointer;
 }
 
@@ -277,17 +275,17 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.6rem 0rem;
+    gap: 10px;
+    padding: 5px 0px;
     background-color: #2B3550;
     color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: medium;
+    font-size: 20px;
+    font-weight: 600;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-special-match .cba-gpc-sm-heading .cba-gpc-sm-hbox h2 i {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #F89827;
 }
 
@@ -338,7 +336,7 @@ html {
     .cba-gpc-smm-mbd-inner {
         background-color: #1C243A;
         clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
-        padding: 0.313rem 0.625rem;
+        padding: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -346,19 +344,19 @@ html {
         .cba-gpc-smm-mbd-i-text {
             h3 {
                 color: #FFFFFF;
-                font-size: 1.25rem;
+                font-size: 18px;
                 font-weight: 600;
             }
             p {
                 color: #656E7F;
-                font-size: 0.8rem;
+                font-size: 16px;
                 font-weight: 600;
             }
         }
         /* inner box data icon */
         .cba-gpc-smm-mbd-i-icon {
             i {
-                font-size: 1.5rem;
+                font-size: 16px;
                 color: #FFFFFF;
             }
         }
@@ -377,7 +375,6 @@ html {
     padding: 0 3px 3px 0;
     background-color: #1C243A;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
-    margin: 0rem 0rem 2rem;
     cursor: pointer;
 }
 
@@ -395,17 +392,17 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 5px;
     padding: 0.6rem 0.6rem;
     background-color: #2B3550;
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: medium;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-heading .cba-gpc-odam-hbox h2 i {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #FFFFFF;
 }
 
@@ -414,9 +411,9 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
-    margin: 2rem 0rem;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin: 18px 0;
     display: none;
     &.oda-active {
         display: grid;
@@ -427,11 +424,11 @@ html {
 .cba-game-page-container .cba-gpc-content .cba-gpc-oda-match .cba-gpc-odam-matches .cba-gpc-odamm-match-box {
     background-color: #2B3550;
     width: 100%;
-    border-radius: 0.313rem;
-    padding: 0.625rem;
+    border-radius: 5px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 5px;
     cursor: pointer;
 }
 
@@ -443,7 +440,7 @@ html {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 0.313rem;
+        border-radius: 5px;
     }
 }
 
@@ -462,12 +459,12 @@ html {
         /* inner box data design */
         h3 {
             color: #FFFFFF;
-            font-size: 1.25rem;
-            font-weight: 600;
+            font-size: 20px;
+            font-weight: 500;
         }
         p {
             color: #656E7F;
-            font-size: 0.8rem;
+            font-size: 16px;
             font-weight: 600;
         }
     }
@@ -485,7 +482,7 @@ html {
     padding: 0 3px 3px 0;
     background-color: #1C243A;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
-    margin: 0rem 0rem 2rem;
+    margin: 18px 0px 18px;
     cursor: pointer;
 }
 
@@ -503,17 +500,17 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.6rem 0.6rem;
+    gap: 10px;
+    padding: 5px 0;
     background-color: #2B3550;
     color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: medium;
+    font-size: 20px;
+    font-weight: 600;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-heading .cba-gpc-tdam-hbox h2 i {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #FFFFFF;
 }
 
@@ -522,9 +519,9 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
-    margin: 2rem 0rem;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 18px;
     display: none;
     &.tda-active {
         display: grid;
@@ -535,11 +532,11 @@ html {
 .cba-game-page-container .cba-gpc-content .cba-gpc-tda-match .cba-gpc-tdam-matches .cba-gpc-tdamm-match-box {
     background-color: #2B3550;
     width: 100%;
-    border-radius: 0.313rem;
-    padding: 0.625rem;
+    border-radius: 5px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 5px;
     cursor: pointer;
 }
 
@@ -551,7 +548,7 @@ html {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 0.313rem;
+        border-radius: 5px;
     }
 }
 
@@ -564,18 +561,17 @@ html {
     .cba-gpc-tdamm-mbd-inner {
         background-color: #1C243A;
         clip-path: polygon(50% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
-        padding: 0.313rem 0.625rem;
-        display: flex;
+        padding: 5px;
         flex-direction: column;
         /* inner box data design */
         h3 {
             color: #FFFFFF;
-            font-size: 1.25rem;
+            font-size: 20px;
             font-weight: 600;
         }
         p {
             color: #656E7F;
-            font-size: 0.8rem;
+            font-size: 16px;
             font-weight: 600;
         }
     }
