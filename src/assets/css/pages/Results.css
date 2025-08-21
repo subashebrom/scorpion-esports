@@ -16,11 +16,31 @@
   --detail-border: #0F1524;
   --type-color: #212B47;
 }
+
+/* custom scroll bar */
+
+.sh-result-main-section::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.sh-result-main-section::-webkit-scrollbar-track {
+    background: linear-gradient(to top, var(--secondary-color), var(--quaternary-color));
+}
+.sh-result-main-section::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--secondary-color), var(--quaternary-color));
+    border-radius:16px;
+}
+.sh-result-main-section::-webkit-scrollbar-button {
+  display:none
+}
+
 /* ==== MAIN SECTION === */
 .sh-result-main-section {
   justify-items: center;
   padding-bottom: 20px;
   background-color: var(--primary-color);
+  height: 100vh;
+  overflow-y: scroll;
 }
 /* === MY MATCHES CONTAINER === */
 .sh-result-container {

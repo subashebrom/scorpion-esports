@@ -17,11 +17,30 @@
   --type-color: #212b47;
 }
 
+/* custom scroll bar */
+
+.sh-profile-main-section::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.sh-profile-main-section::-webkit-scrollbar-track {
+    background: linear-gradient(to top, var(--secondary-color), var(--quaternary-color));
+}
+.sh-profile-main-section::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--secondary-color), var(--quaternary-color));
+    border-radius:16px;
+}
+.sh-profile-main-section::-webkit-scrollbar-button {
+  display:none
+}
+
 /* === Profile Main Section === */
 .sh-profile-main-section {
   justify-items: center;
   padding-bottom: 100px;
   background-color: var(--primary-color);
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 /* === Profile Main Container === */
