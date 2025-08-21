@@ -124,7 +124,7 @@ const BrMatches = () => {
                         <div className="sh-brm-taile">
                             {/* === Macth card image === */}
                             <div className="sh-brm-match-image">
-                                <img src="/public/images/free-fire.jpg" alt="" />
+                                <img src="./images/free-fire.jpg" alt="" />
                             </div>
                             {/* === Text Details === */}
                             <div className="sh-brm-text-details">
@@ -226,7 +226,7 @@ const BrMatches = () => {
                         <div className="sh-brm-taile">
                             {/* === Macth card image === */}
                             <div className="sh-brm-match-image">
-                                <img src="/public/images/free-fire.jpg" alt="" />
+                                <img src="./images/free-fire.jpg" alt="" />
                             </div>
                             {/* === Text Details === */}
                             <div className="sh-brm-text-details">

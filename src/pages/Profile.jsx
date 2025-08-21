@@ -160,7 +160,7 @@ const Profile = () => {
                                 <a href="">Share this App</a>
                             </div>
                             <a className="sh-share-link" href="">
-                                <img src="/public/images/brand-logo.png" alt="" />
+                                <img src="./images/brand-logo.png" alt="" />
                             </a>
                         </a>
                     </div>

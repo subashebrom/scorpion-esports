@@ -60,10 +60,10 @@ const Game = () => {
                     {/* game page carousel div */}
                     <div className="cba-gpc-carousel">
                         <div className="cba-gpc-carousel-slider">
-                            <img src="../../public/images/carousel-img-one.png" alt="Carousel Image 1" />
-                            <img src="../../public/images/carousel-img-two.png" alt="Carousel Image 2" />
-                            <img src="../../public/images/carousel-img-three.png" alt="Carousel Image 3" />
-                            <img src="../../public/images/carousel-img-four.png" alt="Carousel Image 4" />
+                            <img src="./images/carousel-img-one.png" alt="Carousel Image 1" />
+                            <img src="./images/carousel-img-two.png" alt="Carousel Image 2" />
+                            <img src="./images/carousel-img-three.png" alt="Carousel Image 3" />
+                            <img src="./images/carousel-img-four.png" alt="Carousel Image 4" />
                         </div>
                     </div>
                     {/* game page todays match box */}
@@ -82,7 +82,7 @@ const Game = () => {
                         <div className="cba-gpc-tm-matches">
                             <NavLink to='/br-matches' className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
-                                    <img src="../../public/images/br-match.png" alt="BR Match" />
+                                    <img src="./images/br-match.png" alt="BR Match" />
                                 </div>
                                 <div className="cba-gpc-tmm-mb-data">
                                     <div className="cba-gpc-tmm-mbd-inner">
@@ -93,7 +93,7 @@ const Game = () => {
                             </NavLink>
                             <div className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
-                                    <img src="../../public/images/c-squad-match.png" alt="Class Squad Match" />
+                                    <img src="./images/c-squad-match.png" alt="Class Squad Match" />
                                 </div>
                                 <div className="cba-gpc-tmm-mb-data">
                                     <div className="cba-gpc-tmm-mbd-inner">
@@ -104,7 +104,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
-                                    <img src="../../public/images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
+                                    <img src="./images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
                                 </div>
                                 <div className="cba-gpc-tmm-mb-data">
                                     <div className="cba-gpc-tmm-mbd-inner">
@@ -115,7 +115,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
-                                    <img src="../../public/images/lw-match.png" alt="Lone Wolf Match" />
+                                    <img src="./images/lw-match.png" alt="Lone Wolf Match" />
                                 </div>
                                 <div className="cba-gpc-tmm-mb-data">
                                     <div className="cba-gpc-tmm-mbd-inner">
@@ -126,7 +126,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
-                                    <img src="../../public/images/free-match.png" alt="Free Match" />
+                                    <img src="./images/free-match.png" alt="Free Match" />
                                 </div>
                                 <div className="cba-gpc-tmm-mb-data">
                                     <div className="cba-gpc-tmm-mbd-inner">
@@ -137,7 +137,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tmm-match-box">
                                 <div className="cba-gpc-tmm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
+                                    <img src="./images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-tmm-mb-data">
                                     <div className="cba-gpc-tmm-mbd-inner">
@@ -164,7 +164,7 @@ const Game = () => {
                         <div className={`cba-gpc-sm-matches ${isSpecialActive ? "sm-active" : ""}`}>
                             <div className="cba-gpc-smm-match-box">
                                 <div className="cba-gpc-smm-mb-img">
-                                    <img src="../../public/images/br-match.png" alt="BR Match" />
+                                    <img src="./images/br-match.png" alt="BR Match" />
                                 </div>
                                 <div className="cba-gpc-smm-mb-data">
                                     <div className="cba-gpc-smm-mbd-inner">
@@ -180,7 +180,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-smm-match-box">
                                 <div className="cba-gpc-smm-mb-img">
-                                    <img src="../../public/images/c-squad-match.png" alt="Class Squad Match" />
+                                    <img src="./images/c-squad-match.png" alt="Class Squad Match" />
                                 </div>
                                 <div className="cba-gpc-smm-mb-data">
                                     <div className="cba-gpc-smm-mbd-inner">
@@ -196,7 +196,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-smm-match-box">
                                 <div className="cba-gpc-smm-mb-img">
-                                    <img src="../../public/images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
+                                    <img src="./images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
                                 </div>
                                 <div className="cba-gpc-smm-mb-data">
                                     <div className="cba-gpc-smm-mbd-inner">
@@ -212,7 +212,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-smm-match-box">
                                 <div className="cba-gpc-smm-mb-img">
-                                    <img src="../../public/images/lw-match.png" alt="Lone Wolf Match" />
+                                    <img src="./images/lw-match.png" alt="Lone Wolf Match" />
                                 </div>
                                 <div className="cba-gpc-smm-mb-data">
                                     <div className="cba-gpc-smm-mbd-inner">
@@ -228,7 +228,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-smm-match-box">
                                 <div className="cba-gpc-smm-mb-img">
-                                    <img src="../../public/images/free-match.png" alt="Free Match" />
+                                    <img src="./images/free-match.png" alt="Free Match" />
                                 </div>
                                 <div className="cba-gpc-smm-mb-data">
                                     <div className="cba-gpc-smm-mbd-inner">
@@ -244,7 +244,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-smm-match-box">
                                 <div className="cba-gpc-smm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
+                                    <img src="./images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-smm-mb-data">
                                     <div className="cba-gpc-smm-mbd-inner">
@@ -276,7 +276,7 @@ const Game = () => {
                         <div className={`cba-gpc-odam-matches ${isOneDayAfterActive ? "oda-active" : ""}`}>
                             <div className="cba-gpc-odamm-match-box">
                                 <div className="cba-gpc-odamm-mb-img">
-                                    <img src="../../public/images/br-match.png" alt="BR Match" />
+                                    <img src="./images/br-match.png" alt="BR Match" />
                                 </div>
                                 <div className="cba-gpc-odamm-mb-data">
                                     <div className="cba-gpc-odamm-mbd-inner">
@@ -287,7 +287,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-odamm-match-box">
                                 <div className="cba-gpc-odamm-mb-img">
-                                    <img src="../../public/images/c-squad-match.png" alt="Class Squad Match" />
+                                    <img src="./images/c-squad-match.png" alt="Class Squad Match" />
                                 </div>
                                 <div className="cba-gpc-odamm-mb-data">
                                     <div className="cba-gpc-odamm-mbd-inner">
@@ -298,7 +298,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-odamm-match-box">
                                 <div className="cba-gpc-odamm-mb-img">
-                                    <img src="../../public/images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
+                                    <img src="./images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
                                 </div>
                                 <div className="cba-gpc-odamm-mb-data">
                                     <div className="cba-gpc-odamm-mbd-inner">
@@ -309,7 +309,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-odamm-match-box">
                                 <div className="cba-gpc-odamm-mb-img">
-                                    <img src="../../public/images/lw-match.png" alt="Lone Wolf Match" />
+                                    <img src="./images/lw-match.png" alt="Lone Wolf Match" />
                                 </div>
                                 <div className="cba-gpc-odamm-mb-data">
                                     <div className="cba-gpc-odamm-mbd-inner">
@@ -320,7 +320,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-odamm-match-box">
                                 <div className="cba-gpc-odamm-mb-img">
-                                    <img src="../../public/images/free-match.png" alt="Free Match" />
+                                    <img src="./images/free-match.png" alt="Free Match" />
                                 </div>
                                 <div className="cba-gpc-odamm-mb-data">
                                     <div className="cba-gpc-odamm-mbd-inner">
@@ -331,7 +331,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-odamm-match-box">
                                 <div className="cba-gpc-odamm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
+                                    <img src="./images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-odamm-mb-data">
                                     <div className="cba-gpc-odamm-mbd-inner">
@@ -358,7 +358,7 @@ const Game = () => {
                         <div className={`cba-gpc-tdam-matches ${isTwoDayAfterActive ? "tda-active" : ""}`}>
                             <div className="cba-gpc-tdamm-match-box">
                                 <div className="cba-gpc-tdamm-mb-img">
-                                    <img src="../../public/images/br-match.png" alt="BR Match" />
+                                    <img src="./images/br-match.png" alt="BR Match" />
                                 </div>
                                 <div className="cba-gpc-tdamm-mb-data">
                                     <div className="cba-gpc-tdamm-mbd-inner">
@@ -369,7 +369,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tdamm-match-box">
                                 <div className="cba-gpc-tdamm-mb-img">
-                                    <img src="../../public/images/c-squad-match.png" alt="Class Squad Match" />
+                                    <img src="./images/c-squad-match.png" alt="Class Squad Match" />
                                 </div>
                                 <div className="cba-gpc-tdamm-mb-data">
                                     <div className="cba-gpc-tdamm-mbd-inner">
@@ -380,7 +380,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tdamm-match-box">
                                 <div className="cba-gpc-tdamm-mb-img">
-                                    <img src="../../public/images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
+                                    <img src="./images/cs-match.png" alt="CS 1V1 & 2V2 Match" />
                                 </div>
                                 <div className="cba-gpc-tdamm-mb-data">
                                     <div className="cba-gpc-tdamm-mbd-inner">
@@ -391,7 +391,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tdamm-match-box">
                                 <div className="cba-gpc-tdamm-mb-img">
-                                    <img src="../../public/images/lw-match.png" alt="Lone Wolf Match" />
+                                    <img src="./images/lw-match.png" alt="Lone Wolf Match" />
                                 </div>
                                 <div className="cba-gpc-tdamm-mb-data">
                                     <div className="cba-gpc-tdamm-mbd-inner">
@@ -402,7 +402,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tdamm-match-box">
                                 <div className="cba-gpc-tdamm-mb-img">
-                                    <img src="../../public/images/free-match.png" alt="Free Match" />
+                                    <img src="./images/free-match.png" alt="Free Match" />
                                 </div>
                                 <div className="cba-gpc-tdamm-mb-data">
                                     <div className="cba-gpc-tdamm-mbd-inner">
@@ -413,7 +413,7 @@ const Game = () => {
                             </div>
                             <div className="cba-gpc-tdamm-match-box">
                                 <div className="cba-gpc-tdamm-mb-img">
-                                    <img src="../../public/images/cc-match.png" alt="Challenges Match" />
+                                    <img src="./images/cc-match.png" alt="Challenges Match" />
                                 </div>
                                 <div className="cba-gpc-tdamm-mb-data">
                                     <div className="cba-gpc-tdamm-mbd-inner">
