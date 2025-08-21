@@ -18,49 +18,49 @@ const Rules = () => {
                 <div className="sh-rules-category-btn-section">
                     <div className="sh-rhvr-btn">
                         <div className="sh-rules-btn">
-                            <h1 className="sh-category-btns">BR Match</h1>
+                            <div className="sh-category-btns"><h1>BR Match</h1></div>
                         </div>
                         <div className="sh-rules-rhvr-btnt"></div>
                         <div className="sh-rules-rhvr-btnb"></div>
                     </div>
                     <div className="sh-rhvr-btn">
                         <div className="sh-rules-btn">
-                            <h1 className="sh-category-btns">Class Squad</h1>
+                            <div className="sh-category-btns"><h1>Class Squad</h1></div>
                         </div>
                         <div className="sh-rules-rhvr-btnt"></div>
                         <div className="sh-rules-rhvr-btnb"></div>
                     </div>
                     <div className="sh-rhvr-btn">
                         <div className="sh-rules-btn">
-                            <h1 className="sh-category-btns">CS 1v1 & 2v2</h1>
+                            <div className="sh-category-btns"><h1>CS 1v1 & 2v2</h1></div>
                         </div>
                         <div className="sh-rules-rhvr-btnt"></div>
                         <div className="sh-rules-rhvr-btnb"></div>
                     </div>
                     <div className="sh-rhvr-btn">
                         <div className="sh-rules-btn">
-                            <h1 className="sh-category-btns">Lone Wolf</h1>
+                            <div className="sh-category-btns"><h1>Lone Wolf</h1></div>
                         </div>
                         <div className="sh-rules-rhvr-btnt"></div>
                         <div className="sh-rules-rhvr-btnb"></div>
                     </div>
                     <div className="sh-rhvr-btn">
                         <div className="sh-rules-btn">
-                            <h1 className="sh-category-btns">Free Match</h1>
+                            <div className="sh-category-btns"><h1>Free Match</h1></div>
                         </div>
                         <div className="sh-rules-rhvr-btnt"></div>
                         <div className="sh-rules-rhvr-btnb"></div>
                     </div>
                     <div className="sh-rhvr-btn">
                         <div className="sh-rules-btn">
-                            <h1 className="sh-category-btns">E-Sports</h1>
+                            <div className="sh-category-btns"><h1>E-Sports</h1></div>
                         </div>
                         <div className="sh-rules-rhvr-btnt"></div>
                         <div className="sh-rules-rhvr-btnb"></div>
                     </div>
                     <div className="sh-rhvr-btn">
                         <div className="sh-rules-btn">
-                            <h1 className="sh-category-btns">Custom</h1>
+                            <div className="sh-category-btns"><h1>Custom</h1></div>
                         </div>
                         <div className="sh-rules-rhvr-btnt"></div>
                         <div className="sh-rules-rhvr-btnb"></div>

@@ -48,17 +48,17 @@ const Profile = () => {
                 {/* === Depo & Income Section === */}
                 <div className="sh-depo-income-section">
                     <div className="sh-Transaction-Btn2">
-                        <div className="sh-Transaction-Btn1">
+                        <NavLink to='/' className="sh-Transaction-Btn1">
                             <span> <FontAwesomeIcon icon={faHandHoldingDollar}/> </span>
-                            <NavLink to=''>DEPOSIT MONEY</NavLink>
-                        </div>
+                            <h1>DEPOSIT MONEY</h1>
+                        </NavLink>
                     </div>
-                    <div className="sh-Transaction-Btn2">
+                    <NavLink to='' className="sh-Transaction-Btn2">
                         <div className="sh-Transaction-Btn1">
                             <span> <FontAwesomeIcon icon={faMoneyBillTransfer}/> </span>
-                            <NavLink to=''>WITHDRAW</NavLink>
+                            <h1>WITHDRAW</h1>
                         </div>
-                    </div>
+                    </NavLink>
                 </div>
                 {/* === Deposit by money Section === */}
                 <div className="sh-depo-income-wallet-section">

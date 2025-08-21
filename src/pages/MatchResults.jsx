@@ -11,7 +11,7 @@ const MatchResults = () => {
                     <div className="sh-mr-category-btn2">
                         <NavLink to='/results' className="sh-mr-category-btn1">
                             <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <div><h1>MATCH RESULT'S</h1> </div>
+                            <h1>MATCH RESULT'S</h1>
                         </NavLink>
                     </div>
                 </div>
@@ -20,10 +20,10 @@ const MatchResults = () => {
                     <div className="sh-smr-card-container">
                         <div className="sh-solo-mr-card">
                             <div className="sh-smr-card2">
-                                <div className="sh-mr-category-2btn3">
+                                <div className="sh-mr-category-btn33">
                                     <div className="sh-mr-category-btn2">
                                         <div className="sh-mr-category-btn1">
-                                            <div><h1>SOLO | MOBILE | REGULAR</h1> </div>
+                                            <h1>Solo | Mobile | Regular</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ const MatchResults = () => {
                                 </div>
                             </div>
                             <div className="sh-smr-prize-card2">
-                                <div className="sh-mr-category-2btn3">
+                                <div className="sh-mr-category-btn33">
                                     <div className="sh-mr-category-btn2">
                                         <div className="sh-mr-category-btn1">
                                             <div><h1>PRIZE DETAILS</h1> </div>

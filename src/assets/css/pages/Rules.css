@@ -19,11 +19,13 @@
 /* ==== MAIN SECTION === */
 .sh-rules-main-section {
   justify-items: center;
+  padding-bottom: 20px;
+  background-color: var(--primary-color);
 }
 /* === MY MATCHES CONTAINER === */
 .sh-rules-container {
   width: 95%;
-  margin-top: 1.5rem;
+  margin-top: 20px;
 }
 /* === MM CATEGORY BTN === */
 .sh-rules-category-btn1 {
@@ -31,65 +33,60 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--secondary-color);
+  height: 40px;
   color: var(--quinary-color);
+  background-color: var(--secondary-color);
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-rules-category-btn2 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  align-items: center;
+  height: 40px;
   justify-content: center;
   background-color: var(--primary-color);
   color: var(--quinary-color);
-  padding: 0rem 0.125rem 0.25rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-rules-category-btn3 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  align-items: center;
+  height: 40px;
   justify-content: center;
   background-color: var(--tertiary-color);
   color: var(--quinary-color);
-  padding: 0rem 0.25rem 0.375rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
-.sh-rules-category-btn1 {
-  font-size: 1.25rem;
-  font-weight: 500;
+.sh-rules-category-btn1 h1, span {
+  font-size: 20px;
+  font-weight: 600;
 }
 /* === ruless Category Buttons === */
 .sh-rules-category-btn-section{
-  margin-top: 1rem;
+  margin-top: 18px;
   display: grid;
-  padding: 0.5rem;
-  grid-column-gap: 0.5rem;
-  grid-row-gap: 0.5rem;
+  padding: 5px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
   grid-template-columns: repeat(3, 1fr);
   background-color: var(--secondary-color);
   clip-path: polygon(2% 0, 100% 0, 100% 90%, 98% 100%, 0 100%, 0 10%);
 }
 .sh-category-btns{
   text-align: center;
-  font-size: 1.25rem;
-  font-weight: 600;
   color: var(--text-dark);
+  padding: 4px 0px;
   background-color: var(--tertiary-color);
   clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
 }
+.sh-category-btns h1{
+  font-size: 18px;
+}
 .sh-rules-btn{
-  padding: 0rem 0rem 0.125rem 0rem;
+  padding: 0px 0px 2px 0px;
   background-color: var(--primary-color);
   clip-path: polygon(5% 0, 100% 0, 100% 81%, 95% 100%, 0 100%, 0 20%);
 }
@@ -125,11 +122,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  align-items: center;
-  justify-content: center;
+  height: 40px;
   background-color: var(--deeper-red);
   color: var(--quinary-color);
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
@@ -137,26 +132,26 @@
 .sh-rules2 {
   display: flex;
   width: 100%;
-  height: 2.25rem;
+  height: 40px;
   align-items: center;
   justify-content: center;
   background-color: var(--primary-color);
-  padding: 0rem 0.125rem 0.25rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-rules3 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
+  height: 40px;
   margin-top: 1rem;
   background-color: var(--tertiary-color);
   color: var(--quinary-color);
-  padding: 0rem 0.25rem 0.375rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
-.sh-rules1 {
-  font-size: 1rem;
+.sh-rules1 h1{
+  font-size: 20px;
   font-weight: 500;
 }
 .sh-rules1 h1{

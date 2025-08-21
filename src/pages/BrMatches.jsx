@@ -102,7 +102,7 @@ const BrMatches = () => {
                             </NavLink>
                             <NavLink to='/match-details' className="sh-brm-details-box1">
                                 <div className="sh-brm-details-box">
-                                    <p>Match Details</p>
+                                    <p>Details</p>
                                 </div>
                             </NavLink>
                             <NavLink to='' className="sh-brm-details-box1">
@@ -204,7 +204,7 @@ const BrMatches = () => {
                             </NavLink>
                             <NavLink to='/match-details' className="sh-brm-details-box1">
                                 <div className="sh-brm-details-box">
-                                    <p>Match Details</p>
+                                    <p>Details</p>
                                 </div>
                             </NavLink>
                             <NavLink to='' className="sh-brm-details-box1">
@@ -306,7 +306,7 @@ const BrMatches = () => {
                             </NavLink>
                             <NavLink to='/match-details' className="sh-brm-details-box1">
                                 <div className="sh-brm-details-box">
-                                    <p>Match Details</p>
+                                    <p>Details</p>
                                 </div>
                             </NavLink>
                             <NavLink to='' className="sh-brm-details-box1">

@@ -10,7 +10,7 @@ const Results = () => {
                     <div className="sh-result-category-btn2">
                         <NavLink to='/' className="sh-result-category-btn1">
                             <span><FontAwesomeIcon icon={faChevronLeft}/></span>
-                            <div><h1>TODAY'S BR MATCHES</h1> </div>
+                            <h1>TODAY'S BR MATCHES</h1>
                         </NavLink>
                     </div>
                 </div>
@@ -18,49 +18,49 @@ const Results = () => {
                 <div className="sh-result-category-btn-section">
                     <div className="sh-hvr-btn">
                         <div className="sh-result-btn">
-                            <h1 className="sh-category-btns">BR Match</h1>
+                            <div className="sh-category-btns"><h1>BR Match</h1></div>
                         </div>
                         <div className="sh-result-hvr-btnt"></div>
                         <div className="sh-result-hvr-btnb"></div>
                     </div>
                     <div className="sh-hvr-btn">
                         <div className="sh-result-btn">
-                            <h1 className="sh-category-btns">Class Squad</h1>
+                            <div className="sh-category-btns"><h1>Class Squad</h1></div>
                         </div>
                         <div className="sh-result-hvr-btnt"></div>
                         <div className="sh-result-hvr-btnb"></div>
                     </div>
                     <div className="sh-hvr-btn">
                         <div className="sh-result-btn">
-                            <h1 className="sh-category-btns">CS 1v1 & 2v2</h1>
+                            <div className="sh-category-btns"><h1>CS 1v1 & 2v2</h1></div>
                         </div>
                         <div className="sh-result-hvr-btnt"></div>
                         <div className="sh-result-hvr-btnb"></div>
                     </div>
                     <div className="sh-hvr-btn">
                         <div className="sh-result-btn">
-                            <h1 className="sh-category-btns">Lone Wolf</h1>
+                            <div className="sh-category-btns"><h1>Lone Wolf</h1></div>
                         </div>
                         <div className="sh-result-hvr-btnt"></div>
                         <div className="sh-result-hvr-btnb"></div>
                     </div>
                     <div className="sh-hvr-btn">
                         <div className="sh-result-btn">
-                            <h1 className="sh-category-btns">Free Match</h1>
+                            <div className="sh-category-btns"><h1>Free Match</h1></div>
                         </div>
                         <div className="sh-result-hvr-btnt"></div>
                         <div className="sh-result-hvr-btnb"></div>
                     </div>
                     <div className="sh-hvr-btn">
                         <div className="sh-result-btn">
-                            <h1 className="sh-category-btns">E-Sports</h1>
+                            <div className="sh-category-btns"><h1>E-Sports</h1></div>
                         </div>
                         <div className="sh-result-hvr-btnt"></div>
                         <div className="sh-result-hvr-btnb"></div>
                     </div>
                     <div className="sh-hvr-btn">
                         <div className="sh-result-btn">
-                            <h1 className="sh-category-btns">Custom</h1>
+                            <div className="sh-category-btns"><h1>Custom</h1></div>
                         </div>
                         <div className="sh-result-hvr-btnt"></div>
                         <div className="sh-result-hvr-btnb"></div>
@@ -74,13 +74,13 @@ const Results = () => {
                         <div className="sh-result-taile">
                             {/* === Macth card image === */}
                             <div className="sh-result-match-image">
-                                <img src="/public/images/free-fire.jpg" alt="" />
+                                <img src="./images/free-fire.jpg" alt="" />
                             </div>
                             {/* === Text Details === */}
                             <div className="sh-result-text-details">
                                 <h1>SOLO | MOBILE | REGULAR</h1>
                                 {/* === Real time & date === */}
-                                <input type="datetime-local" />
+                                <input className="sh-brm-time" type="datetime-local" />
                             </div>
                         </div>
                         {/* === Match Entry Details === */}
@@ -134,7 +134,7 @@ const Results = () => {
                             </NavLink>
                         </div>
                         {/* === BR MATCH NUMBERING === */}
-                        <div className="sh-brm-numbering-card"><span>#1130</span></div>
+                        <div className="sh-result-numbering-card"><span>#1130</span></div>
                     </div>
                     {/* === Card === */}
                     <div className="sh-result-card">
@@ -142,13 +142,13 @@ const Results = () => {
                         <div className="sh-result-taile">
                             {/* === Macth card image === */}
                             <div className="sh-result-match-image">
-                                <img src="/public/images/free-fire.jpg" alt="" />
+                                <img src="./images/free-fire.jpg" alt="" />
                             </div>
                             {/* === Text Details === */}
                             <div className="sh-result-text-details">
                                 <h1>DUO | MOBILE | REGULAR</h1>
                                 {/* === Real time & date === */}
-                                <input type="datetime-local" />
+                                <input className="sh-brm-time" type="datetime-local" />
                             </div>
                         </div>
                         {/* === Match Entry Details === */}
@@ -202,7 +202,7 @@ const Results = () => {
                             </NavLink>
                         </div>
                         {/* === BR MATCH NUMBERING === */}
-                        <div className="sh-brm-numbering-card"><span>#1130</span></div>
+                        <div className="sh-result-numbering-card"><span>#1130</span></div>
                     </div>
                     {/* === Card === */}
                     <div className="sh-result-card">
@@ -210,13 +210,13 @@ const Results = () => {
                         <div className="sh-result-taile">
                             {/* === Macth card image === */}
                             <div className="sh-result-match-image">
-                                <img src="/public/images/free-fire.jpg" alt="" />
+                                <img src="./images/free-fire.jpg" alt="" />
                             </div>
                             {/* === Text Details === */}
                             <div className="sh-result-text-details">
                                 <h1>SQUAD | MOBILE | REGULAR</h1>
                                 {/* === Real time & date === */}
-                                <input type="datetime-local" />
+                                <input className="sh-brm-time" type="datetime-local" />
                             </div>
                         </div>
                         {/* === Match Entry Details === */}
@@ -270,7 +270,7 @@ const Results = () => {
                             </NavLink>
                         </div>
                         {/* === BR MATCH NUMBERING === */}
-                        <div className="sh-brm-numbering-card"><span>#1130</span></div>
+                        <div className="sh-result-numbering-card"><span>#1130</span></div>
                     </div>
                 </div>
             </div>

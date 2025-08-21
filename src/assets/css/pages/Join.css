@@ -53,7 +53,7 @@
   justify-content: center;
   background-color: var(--primary-color);
   color: var(--quinary-color);
-  padding: 0px 4px 4px 0px;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-join-category-btn3 {
@@ -64,7 +64,7 @@
   justify-content: center;
   background-color: var(--secondary-color);
   color: var(--quinary-color);
-  padding: 0px 4px 4px 0px;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 /* === Joining Section === */
@@ -156,13 +156,13 @@
 }
 .sh-jion-pn-box2{
   width: 100%;
-  padding: 0rem 0rem 0.125rem 0rem;
+  padding: 0px 0px 2px 0px;
   background-color: var(--primary-color);
   clip-path: polygon(100% 0, 100% 72%, 97% 100%, 0 100%, 0 0);
 }
 .sh-join-btm-triangle{
-  width: 29px;
-  height: 8px;
+  width: 25px;
+  height: 10px;
   bottom: 0;
   right: 0;
   position: absolute;
@@ -171,20 +171,22 @@
 }
 /* === Play to Join Now Button === */
 .sh-play-join-btn1{
-  font-size: 1.25rem;
+  font-size: 20px;
+  font-weight: 500;
+  padding:10px 0px;
   color: var(--quinary-color);
   text-align: center;
   background-color: var(--deeper-green);
   clip-path: polygon(3% 0, 100% 0, 100% 60%, 97% 100%, 0 100%, 0 40%);
 }
 .sh-play-join-btn2{
-  padding: 0rem 0rem 0.125rem 0rem;
+  padding: 0px 4px 6px 0px;
   background-color: var(--tertiary-color);
   clip-path: polygon(3% 0, 100% 0, 100% 62%, 97% 100%, 0 100%, 0 40%);
 }
 .sh-play-join-btn3{
-  margin-top: 1rem;
-  padding: 0rem 0rem 0.1875rem 0rem;
+  margin-top: 20px;
+  padding: 0px 4px 6px 0px;
   background-color: var(--secondary-color);
   clip-path: polygon(3% 0, 100% 0, 100% 64%, 97% 100%, 0 100%, 0 40%);
 }
@@ -197,33 +199,33 @@
 }
 .sh-join-team-spot-num1{
   width: 40%;
-  padding: 0rem 0rem 0.125rem 0rem;
+  padding: 0px 0px 2px 0px;
   background-color: var(--deeper-green);
   clip-path: polygon(100% 0, 100% 67%, 90% 100%, 0 100%, 0 0);
 }
 .sh-join-team-spot-num2{
-  padding-left: 0.3125rem;
+  padding-left: 5px;
   background-color: var(--tertiary-color);
   clip-path: polygon(100% 0, 100% 65%, 90% 100%, 0 100%, 0 0);
 }
-.sh-join-team-spot-num2{
-  font-size: 1.125rem;
+.sh-join-team-spot-num2 p{
+  font-size: 20px;
   color: var(--text-dark);
 }
 .sh-join-team-spot-name1{
   width: 100%;
-  padding: 0rem 0rem 0.125rem 0rem;
+  padding:0px 0px 2px 0px;
   background-color: var(--deeper-green);
   clip-path: polygon(100% 0, 100% 65%, 95% 100%, 0 100%, 0 0);
 }
 .sh-join-team-spot-name2{
-  padding-left: 0.3125rem;
+  padding-left: 5px;
   background-color: var(--tertiary-color);
   clip-path: polygon(100% 0, 100% 61%, 95% 100%, 0 100%, 0 0);
 }
 .sh-join-team-spot-name2 input{
   width: 100%;
   outline: none;
-  font-size: 1.125rem;
+  font-size: 20px;
   color: var(--text-dark);
 }

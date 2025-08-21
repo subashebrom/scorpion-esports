@@ -10,21 +10,22 @@
   --quaternary-color: #000000;
   --quinary-color: #ffffff;
   --deeper-blue: #155c6e;
-  --deeper-green: #216E15;
-  --deeper-red: #8E1E0D;
-  --text-dark: #AAB2B7;
-  --detail-border: #0F1524;
-  --type-color: #212B47;
+  --deeper-green: #216e15;
+  --deeper-red: #8e1e0d;
+  --text-dark: #aab2b7;
+  --detail-border: #0f1524;
+  --type-color: #212b47;
 }
 /* ==== MAIN SECTION === */
 .sh-md-main-section {
   justify-items: center;
   padding-bottom: 20px;
+  background-color: var(--primary-color);
 }
 /* === MY MATCHES CONTAINER === */
 .sh-md-container {
   width: 95%;
-  margin-top: 1.5rem;
+  margin-top: 20px;
 }
 /* === MM CATEGORY BTN === */
 .sh-md-category-btn1 {
@@ -32,126 +33,123 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  justify-content: center;
-  background-color: var(--secondary-color);
+  height: 40px;
   color: var(--quinary-color);
+  background-color: var(--secondary-color);
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
+}
+.sh-md-category-btn1 h1, span {
+  font-size: 20px;
+  font-weight: 500;
 }
 .sh-md-category-btn2 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  align-items: center;
+  height: 40px;
   justify-content: center;
   background-color: var(--primary-color);
   color: var(--quinary-color);
-  padding: 0rem 0.125rem 0.25rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-md-category-btn3 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  align-items: center;
+  height: 40px;
   justify-content: center;
-  background-color: var(--secondary-color);
+  background-color: var(--tertiary-color);
   color: var(--quinary-color);
-  padding: 0rem 0.25rem 0.375rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-md-category-2btn3 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
-  align-items: center;
+  height: 40px;
   justify-content: center;
   background-color: var(--secondary-color);
   color: var(--quinary-color);
-  padding: 0rem 0.25rem 0.375rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
-.sh-md-category-btn1 {
-  font-size: 1.25rem;
-  font-weight: 500;
+.sh-md-category-btn1 h1 {
+  font-size: 20px;
 }
 /* === SOLO MATCH DETAILS SECTION === */
 /* === SOLO MATCH DETAILS CARD CONTAINER === */
-.sh-smd-card-container{
-  margin-top: 1rem;
+.sh-smd-card-container {
+  margin-top: 16px;
 }
-.sh-solo-md-card{
-  padding: 0.3125rem;
+.sh-solo-md-card {
+  padding: 5px;
   background-color: var(--secondary-color);
 }
-.sh-smd-card2{
-  padding: 0.3125rem;
+.sh-smd-card2 {
+  padding: 5px;
   background-color: var(--tertiary-color);
   clip-path: polygon(3% 0, 100% 0%, 100% 93%, 96% 100%, 0 100%, 0 7%);
 }
 /* === SMD TYPE SECTION === */
-.sh-smd-type-section{
+.sh-smd-type-section {
   display: grid;
-  column-gap: 0.1875rem;
-  margin-top: 0.5rem;
+  column-gap: 5px;
+  margin-top: 12px;
   grid-template-columns: repeat(3, 1fr);
 }
-.sh-smd-type-box1{
-  padding: 0rem 0rem 0.125rem 0rem;
+.sh-smd-type-box1 {
+  padding: 0px 0px 2px 0px;
   background-color: var(--detail-border);
   clip-path: polygon(100% 0, 100% 80%, 95% 100%, 0 100%, 0 0);
 }
-.sh-smd-type-box2{
-  padding: 0.1875rem 0rem 0.1875rem 0.125rem;
+.sh-smd-type-box2 {
+  padding: 5px 0px 5px 4px;
   text-align: start;
   color: var(--text-dark);
   background-color: var(--secondary-color);
   clip-path: polygon(100% 0, 100% 79%, 95% 100%, 0 100%, 0 0);
 }
-.sh-smd-type-section-two{
+.sh-smd-type-box2 p,
+.sh-smd-type-box-last p {
+  font-size: 14px;
+}
+.sh-smd-type-section-two {
   display: grid;
-  column-gap: 0.1875rem;
-  margin-top: 0.5rem;
+  column-gap: 5px;
+  margin-top: 12px;
   grid-template-columns: repeat(2, 1fr);
 }
-.sh-smd-type-box-last1{
-  margin-top: 0.5rem;
-  padding: 0rem 0rem 0.125rem 0rem;
+.sh-smd-type-box-last1 {
+  margin-top: 12px;
+  padding: 0px 0px 2px 0px;
   background-color: var(--detail-border);
   clip-path: polygon(100% 0, 100% 67%, 96% 100%, 0 100%, 0 0);
 }
-.sh-smd-type-box-last{
-  padding: 0.1875rem 0rem 0.1875rem 0.125rem;
+.sh-smd-type-box-last {
+  padding: 5px 0px 5px 4px;
   text-align: start;
   color: var(--text-dark);
   background-color: var(--secondary-color);
   clip-path: polygon(100% 0, 100% 65%, 96% 100%, 0 100%, 0 0);
 }
-.sh-smd-prize-card2{
-  column-gap: 0.1875rem;
-  margin-top: 1rem;
-
-  grid-template-columns: repeat(2, 1fr);
-  padding: 0.3125rem;
+.sh-smd-prize-card2 {
+  margin-top: 16px;
+  padding: 5px;
   background-color: var(--tertiary-color);
   clip-path: polygon(4% 0, 100% 0%, 100% 87%, 96% 100%, 0 100%, 0 16%);
 }
 /* === smd notice === */
-.smd-notice-box{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.3125rem;
-  font-size: 1.125rem;
+.smd-notice-box {
+  margin: 16px 0;
+  padding: 5px;
   color: var(--quinary-color);
-  background-color: #DEA403;
+  background-color: #dea403;
   clip-path: polygon(100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+}
+.smd-notice-box p {
+  font-size: 20px;
 }
 /* ============== */
 .sh-smd-rules1 {
@@ -159,8 +157,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
+  height: 40px;
   align-items: center;
   justify-content: center;
   background-color: var(--deeper-red);
@@ -170,69 +167,72 @@
 .sh-smd-rules2 {
   display: flex;
   width: 100%;
-  height: 2.25rem;
+  height: 40px;
   align-items: center;
   justify-content: center;
   background-color: var(--primary-color);
-  padding: 0rem 0.125rem 0.25rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-smd-rules3 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
-  margin-top: 1rem;
+  height: 40px;
+  margin-top: 12px;
   background-color: var(--tertiary-color);
   color: var(--quinary-color);
-  padding: 0rem 0.25rem 0.375rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
-.sh-smd-rules1 {
-  font-size: 1rem;
-  font-weight: 500;
+.sh-smd-rules1 h1 {
+  font-size: 20px;
+  padding: 0 5px;
 }
 /* === HERE OUR RULES SECTION === */
-.sh-smd-registered-player-section{
-  padding: 0.3125rem;
+.sh-smd-registered-player-section {
+  padding: 5px;
+  margin-top: 16px;
   background-color: var(--secondary-color);
 }
-.sh-smd-rules-section{
+.sh-smd-rules-section {
   color: var(--quinary-color);
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 .sh-smd-rpp1 {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 2.25rem;
-  font-size: 0.75rem;
+  height: 40px;
   align-items: center;
   justify-content: center;
   background-color: var(--deeper-green);
   color: var(--quinary-color);
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
+.sh-smd-rpp1 h1 {
+  font-size: 20px;
+  padding: 0px 5px;
+}
 .sh-smd-rpp2 {
   display: flex;
   width: 100%;
-  height: 2.25rem;
+  height: 40px;
   align-items: center;
   justify-content: center;
+  padding: 0px 4px 6px 0px;
   background-color: var(--secondary-color);
-  padding: 0rem 0.125rem 0.25rem 0rem;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-smd-rpp3 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 2.25rem;
-  margin-top: 1rem;
+  height: 40px;
   background-color: var(--deeper-green);
   color: var(--quinary-color);
-  padding: 0rem 0.25rem 0.375rem 0rem;
+  padding: 0px 4px 6px 0px;
   clip-path: polygon(3% 0, 100% 0%, 100% 70%, 97% 100%, 0 100%, 0 30%);
 }
 .sh-smd-rpp1 {
@@ -240,55 +240,57 @@
   font-weight: 500;
 }
 /* === PARITCIPANTS === */
-.sh-smd-participants-name{
+.sh-smd-participants-name {
   display: grid;
-  margin-top: 1rem;
-  grid-row-gap: 0.3125rem;
+  margin-top: 16px;
+  grid-row-gap: 5px;
 }
-.sh-smd-pn1{
-  padding: 0.1875rem;
+.sh-smd-pn1 {
   background-color: var(--tertiary-color);
   clip-path: polygon(100% 0, 100% 65%, 97% 100%, 0 100%, 0 0);
 }
-.sh-smd-pn2{
-  padding: 0rem 0rem 0.125rem 0rem;
+.sh-smd-pn1 p {
+  padding: 8px 4px;
+  font-size: 20px;
+  color: var(--text-dark);
+}
+.sh-smd-pn2 {
+  padding: 0px 0px 2px 0px;
   background-color: var(--primary-color);
   clip-path: polygon(100% 0, 100% 68%, 97% 100%, 0 100%, 0 0);
 }
-.sh-smd-pn1 p{
-  font-size: 1.125rem;
-  color: var(--text-dark);
-}
 /* === Duo Registered Partcipants Section === */
-.sh-sdm-duo-team{
+.sh-sdm-duo-team {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   justify-content: space-between;
 }
-.sh-sdm-duo-team-num1{
+.sh-sdm-duo-team-num1 {
   width: 40%;
-  padding: 0rem 0rem 0.125rem 0rem;
+  padding: 0px 0px 2px 0px;
   background-color: var(--deeper-green);
   clip-path: polygon(100% 0, 100% 67%, 90% 100%, 0 100%, 0 0);
 }
-.sh-sdm-duo-team-num2{
-  padding-left: 0.3125rem;
+.sh-sdm-duo-team-num2 {
+  padding-left: 5px;
   background-color: var(--tertiary-color);
   clip-path: polygon(100% 0, 100% 65%, 90% 100%, 0 100%, 0 0);
 }
-.sh-sdm-duo-team-num2, .sh-sdm-duo-team-name2 p{
-  font-size: 1.125rem;
+.sh-sdm-duo-team-num2 p {
+  font-size: 20px;
   color: var(--text-dark);
 }
-.sh-sdm-duo-team-name1{
+.sh-sdm-duo-team-name1 {
   width: 100%;
-  padding: 0rem 0rem 0.125rem 0rem;
+  padding: 0px 0px 40px 0px;
   background-color: var(--deeper-green);
   clip-path: polygon(100% 0, 100% 65%, 95% 100%, 0 100%, 0 0);
 }
-.sh-sdm-duo-team-name2{
-    padding-left: 0.3125rem;
+.sh-sdm-duo-team-name2 {
+  padding-left: 5px;
   background-color: var(--tertiary-color);
   clip-path: polygon(100% 0, 100% 61%, 95% 100%, 0 100%, 0 0);
+}
+.sh-sdm-duo-team-name2 p {
+  font-size: 20px !important;
 }

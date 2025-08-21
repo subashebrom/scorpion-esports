@@ -7,14 +7,14 @@ const MyProfile = () => {
     return (
         <div className="sh-my-profile-main-section">
             <div className="sh-my-profile-main-container">
-                <div className="sh-myp-category-btn3">
+                <NavLink to='/profile' className="sh-myp-category-btn3">
                     <div className="sh-myp-category-btn2">
-                        <NavLink to='/profile' className="sh-myp-category-btn1">
+                        <div className="sh-myp-category-btn1">
                             <span> <FontAwesomeIcon icon={faChevronLeft} /></span>
-                            <NavLink to='/profile'>My Profile</NavLink>
-                        </NavLink>
+                            <h1>My Profile</h1>
+                        </div>
                     </div>
-                </div>
+                </NavLink>
                 {/* === Profile Image and Name === */}
                 <div className="sh-profile">
                     <div className="sh-pImg">
