@@ -17,11 +17,30 @@
   --type-color: #212b47;
 }
 
+/* custom scroll bar */
+
+.sh-my-match-main-section::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.sh-my-match-main-section::-webkit-scrollbar-track {
+    background: linear-gradient(to top, var(--secondary-color), var(--quaternary-color));
+}
+.sh-my-match-main-section::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--secondary-color), var(--quaternary-color));
+    border-radius:16px;
+}
+.sh-my-match-main-section::-webkit-scrollbar-button {
+  display:none
+}
+
 /* ==== MAIN SECTION === */
 .sh-my-match-main-section {
   justify-items: center;
   padding-bottom: 20px;
   background-color: var(--primary-color);
+  height: 100vh;
+  overflow-y: scroll;
 }
 /* === MY MATCHES CONTAINER === */
 .sh-mm-container {

@@ -47,6 +47,23 @@ html {
 
 /* -------------------------------------------------------- */
 
+/* custom scroll bar */
+
+.cba-game-page-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.cba-game-page-container::-webkit-scrollbar-track {
+    background: linear-gradient(to top, var(--secondary-color), var(--quaternary-color));
+}
+.cba-game-page-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--secondary-color), var(--quaternary-color));
+    border-radius:16px;
+}
+.cba-game-page-container::-webkit-scrollbar-button {
+    display:none
+}
+
 /* Game Page */
 .cba-game-page-container {
     display: flex;
