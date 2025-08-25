@@ -84,7 +84,11 @@ html {
 
 /* -------------------------------------------------------- */
 
-/* Game Page Heading */
+/* Game Page notice box */
+.cba-game-page-container .cba-gpc-content .cba-gpc-notice-box {
+    position: relative;
+}
+
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading {
     display: flex;
     justify-content: center;
@@ -93,6 +97,7 @@ html {
     background-color: #1C243A;
     clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
     margin: 2rem 0rem;
+    cursor: pointer;
 }
 
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading .cba-gpc-hbox {
@@ -121,6 +126,103 @@ html {
 .cba-game-page-container .cba-gpc-content .cba-gpc-heading .cba-gpc-hbox h2 i {
     font-size: 20px;
     color: #F89827;
+}
+
+/* modal */
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box {
+    background-color: #2B3550;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 2;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal {
+    background-color: #0F1524;
+    padding: 0.5rem;
+}
+
+/* modal heading */
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal .cba-gpc-nbox-modal-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px 3px 0;
+    background-color: #1C243A;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    margin: 0.3rem 0rem;
+    cursor: pointer;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal .cba-gpc-nbox-modal-heading .cba-gpc-nbox-hbox {
+    width: 100%;
+    height: 100%;
+    background-color: #0F1524;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    padding: 0 2px 2px 0;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal .cba-gpc-nbox-modal-heading .cba-gpc-nbox-hbox h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0px;
+    background-color: #E43232;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+}
+
+/* modal paragraph */
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
+    text-align: justify;
+}
+
+/* modal close button */
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal-close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px 3px 0;
+    background-color: #1C243A;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    cursor: pointer;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal-close-btn .cba-gpc-nbox-mcb-box {
+    width: 100%;
+    height: 100%;
+    background-color: #0F1524;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
+    padding: 0 2px 2px 0;
+}
+
+.cba-game-page-container .cba-gpc-content .cba-gpc-nbox-modal-box .cba-gpc-nbox-modal-close-btn .cba-gpc-nbox-mcb-box h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0px;
+    background-color: #216E15;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    clip-path: polygon(4% 0, 100% 0, 100% 65%, 96% 100%, 0 100%, 0 45%);
 }
 
 /* -------------------------------------------------------- */

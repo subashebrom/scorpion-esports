@@ -42,19 +42,52 @@ const Game = () => {
     const dayAfterTomorrowYear = dayAfterTomorrow.getFullYear();
     const dayAfterTomorrowDate = `${dayAfterTomorrowDay}/${dayAfterTomorrowMonth}/${dayAfterTomorrowYear}`;
 
+    // modal
+    const openModal = () => {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'flex';
+    }
+
+    const closeModal = () => {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'none';
+    }
+
+    setTimeout(() => {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'flex';
+    }, 2500);
+
     return (
         <>
-            <div className="cba-game-page-container">
+            <div className="cba-game-page-container" id='page'>
                 {/* game page main content box */}
                 <div className="cba-gpc-content">
-                    {/* game page heading box */}
-                    <div className="cba-gpc-heading">
-                        <div className="cba-gpc-hbox">
-                            <h2>
-                                <i class='bx  bxs-fire-alt'></i>
-                                OFFER NOTICE BOARD
-                                <i class='bx  bxs-fire-alt'></i>
-                            </h2>
+                    {/* game page notice box */}
+                    <div className="cba-gpc-notice-box">
+                        <div className="cba-gpc-heading" onClick={openModal}>
+                            <div className="cba-gpc-hbox">
+                                <h2>
+                                    <i class='bx  bxs-fire-alt'></i>
+                                    OFFER NOTICE BOARD
+                                    <i class='bx  bxs-fire-alt'></i>
+                                </h2>
+                            </div>
+                        </div>
+                        <div className="cba-gpc-nbox-modal-box" id='modal'>
+                            <div className="cba-gpc-nbox-modal">
+                                <div className="cba-gpc-nbox-modal-heading" onClick={closeModal}>
+                                    <div className="cba-gpc-nbox-hbox">
+                                        <h2>গুরুত্বপূর্ণ  নোটিশ !!</h2>
+                                    </div>
+                                </div>
+                                <p>SCORPION E-SPORTS  M590 সম্পূর্ণভাবে ব্যান এপ থেকে, M590, Double Victor, AWM, M82B এগুলো চালানো যাবে না | BR এ বাহিরের প্লেয়ার নিয়ে ডুকবেন না এবং ইনভাইট দিবেন না, নাইলে সোজা কিক খাবেন কাস্টম রুম এবং এপ থেকে | এমনকি আপনার টাকাও বেক পাবেন না | ডিপোজিটে সমস্যা হলে টেলিগ্রামে অথবা WhatsApp মেসেজ দিবেন | কল দেয়া  সম্পূর্ণভাবে নিষেধ | উইথড্র লিমিট ২০০ টাকা | যেকোনো সহযোগিতায় টেলিগ্রামে জয়েন করুন | ধন্যবাদ</p>
+                            </div>
+                            <div className="cba-gpc-nbox-modal-close-btn" onClick={closeModal}>
+                                <div className="cba-gpc-nbox-mcb-box">
+                                    <h2>Okay</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {/* game page carousel div */}
