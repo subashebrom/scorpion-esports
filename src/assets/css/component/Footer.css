@@ -68,8 +68,6 @@ html {
     width: 100%;
     background-color: var(--secondary-color);
     padding: 1rem 1rem;
-    bottom: 0;
-    position: fixed;
     /* display: none; */
 }
 
