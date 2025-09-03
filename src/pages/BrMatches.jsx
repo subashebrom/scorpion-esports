@@ -3,11 +3,18 @@ import "../assets/css/pages/BrMatches.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 const BrMatches = () => {
+    // room details modal
+    const openRoomModal = () => {
+        document.querySelector(".room-modal-con").style.display = "flex";
+    }
+    const closeRoomModal = () => {
+        document.querySelector(".room-modal-con").style.display = "none";
+    }
     // prize details modal
-    const openModal = () => {
+    const openPrizeModal = () => {
         document.querySelector(".prize-modal-con").style.display = "flex";
     }
-    const closeModal = () => {
+    const closePrizeModal = () => {
         document.querySelector(".prize-modal-con").style.display = "none";
     }
     return (
@@ -102,24 +109,43 @@ const BrMatches = () => {
                         </div>
                         {/* === Match Details === */}
                         <div className="sh-brm-details-section">
-                            <NavLink to='' className="sh-brm-details-box1">
+                            <NavLink to='' className="sh-brm-details-box1" onClick={openRoomModal}>
                                 <div className="sh-brm-details-box">
                                     <p>Room Details</p>
                                 </div>
                             </NavLink>
+                            <div className="room-modal-con">
+                                <div className="rd-modal">
+                                    <div className="rdm-close-btn" onClick={closeRoomModal}>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                    <div className="rdm-content">
+                                        <div className="rdm-c-heading">
+                                            <h3>ROOM DETAILS</h3>
+                                            <h4>Match Name</h4>
+                                        </div>
+                                        <div className="rdm-c-details">
+                                            <ul>
+                                                <li><i class="fa-solid fa-id-badge"></i>Room ID - 1234</li>
+                                                <li><i class="fa-solid fa-key"></i>Password - 1234</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <NavLink to='/match-details' className="sh-brm-details-box1">
                                 <div className="sh-brm-details-box">
                                     <p>Details</p>
                                 </div>
                             </NavLink>
                             <NavLink to='' className="sh-brm-details-box1">
-                                <div className="sh-brm-details-box modal-parent" onClick={openModal} id="prizeModalOpen">
+                                <div className="sh-brm-details-box modal-parent" onClick={openPrizeModal}>
                                     <p>Prize Details</p>
                                 </div>
                             </NavLink>
                             <div className="prize-modal-con">
                                 <div className="pd-modal">
-                                    <div className="pdm-close-btn" onClick={closeModal} id="prizeModalClose">
+                                    <div className="pdm-close-btn" onClick={closePrizeModal}>
                                         <i class="fa-solid fa-xmark"></i>
                                     </div>
                                     <div className="pdm-content">

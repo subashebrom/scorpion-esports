@@ -309,6 +309,7 @@
 /* ------------------------------------------------ */
 /* modal css */
 
+/* prize modal */
 .prize-modal-con {
   position: fixed;
   top: 0;
@@ -377,6 +378,101 @@
     }
     /* details */
     .pdm-c-details {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #0f1524;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        li {
+          color: #ffffff;
+          font-size: 14px;
+          font-weight: 500;
+          i {
+            margin-right: 8px;
+            color: #F89827;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ------------------------------------------------ */
+
+/* room details modal */
+.room-modal-con {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  /* modal box */
+  .rd-modal {
+    position: relative;
+    top: 100px;
+    width: 300px;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    z-index: 3;
+    /* close btn */
+    .rdm-close-btn {
+      position: absolute;
+      top: -46px;
+      right: 0;
+      padding: 0.8rem 0.8rem 0.6rem;
+      cursor: pointer;
+      background-color: #8e1e0d;
+      border-radius: 10px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      i {
+        color: #ffffff;
+        font-size: 20px;
+      }
+    }
+    /* content */
+    .rdm-content {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      /* heading */
+      .rdm-c-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 0;
+        border-radius: 10px;
+        background-color: #0f1524;
+        cursor: pointer;
+        h3 {
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 500;
+        }
+        h4 {
+          color: #ffffff;
+          font-size: 12px;
+        }
+      }
+    }
+    /* details */
+    .rdm-c-details {
       width: 100%;
       display: flex;
       flex-direction: column;
