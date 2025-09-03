@@ -3,6 +3,13 @@ import "../assets/css/pages/BrMatches.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 const BrMatches = () => {
+    // prize details modal
+    const openModal = () => {
+        document.querySelector(".prize-modal-con").style.display = "flex";
+    }
+    const closeModal = () => {
+        document.querySelector(".prize-modal-con").style.display = "none";
+    }
     return (
         <div className="sh-my-matches-main-section">
             <div className="sh-br-container">
@@ -106,10 +113,34 @@ const BrMatches = () => {
                                 </div>
                             </NavLink>
                             <NavLink to='' className="sh-brm-details-box1">
-                                <div className="sh-brm-details-box">
+                                <div className="sh-brm-details-box modal-parent" onClick={openModal} id="prizeModalOpen">
                                     <p>Prize Details</p>
                                 </div>
                             </NavLink>
+                            <div className="prize-modal-con">
+                                <div className="pd-modal">
+                                    <div className="pdm-close-btn" onClick={closeModal} id="prizeModalClose">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                    <div className="pdm-content">
+                                        <div className="pdm-c-heading">
+                                            <h3>TOTAL PRIZE</h3>
+                                            <h4>Match Name</h4>
+                                        </div>
+                                        <div className="pdm-c-details">
+                                            <ul>
+                                                <li><i class="fa-solid fa-crown"></i>Winner - 1000 TK</li>
+                                                <li><i class="fa-solid fa-trophy"></i>2nd Position - 1000 TK</li>
+                                                <li><i class="fa-solid fa-medal"></i>3rd Position - 1000 TK</li>
+                                                <li><i class="fa-solid fa-medal"></i>4th Position - 1000 TK</li>
+                                                <li><i class="fa-solid fa-medal"></i>5th Position - 1000 TK</li>
+                                                <li><i class="fa-solid fa-skull"></i>Per Kills - 20 TK</li>
+                                                <li><i class="fa-solid fa-money-bill-wave"></i>Total Prize Pool - 1000 TK</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         {/* === BR MATCH NUMBERING === */}
                         <div className="sh-brm-numbering-card"><span>#1130</span></div>
